@@ -339,6 +339,7 @@ a:hover {
 	display: none;
 	margin-right: 10px;
 	margin-top: -2px;
+	width: 20px;
 }
 /*收藏*/
 .remove-info-img {
@@ -442,7 +443,10 @@ a:hover {
 	font-size: 20px;
 }
 @media screen and (max-width: 736px) {
-	.share .info {
+/*	.share .info {
 		right: -20px;
+	}*/
+	.add-info-img,.remove-info-img {
+		width: 15px;
 	}
 }

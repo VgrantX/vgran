@@ -7,7 +7,7 @@
 	width: 100%;
 	overflow: hidden;
 }
-.PortraitImg img {
+.PortraitIMG img {
 	width: 100%;
 }
 /*简介*/
@@ -84,7 +84,7 @@
 }
 .FontH1 {
 	background: #e6e6e6;
-	padding: 10px;
+	padding: 10px 20px;
 	text-align: center;
 	padding-top: 10px;
 	font-size: 22px;
@@ -125,6 +125,7 @@
 	border: 1px solid #f68f8f;
 	margin-bottom: 30px;
 	padding: 20px 30px;
+	position: relative;
 }
 .CATTLE-company b {
 	font-size: 18px;
@@ -187,6 +188,16 @@
 }
 
 @media screen and (max-width: 736px) {
+	.CATTLE-company .font-blue .font-red {
+		font-size: 14px;
+	}
+	.font-blue a {
+		font-size: 16px;
+	}
+	.Features b {
+		margin-left: 0;
+		margin-right: 10px;
+	}
 	.fenge {
 		margin: 10px 0;
 	}
@@ -229,15 +240,17 @@
 		margin-bottom: 15px;
 	}
 	.CATTLE-company .font-blue span {
-		display: block;
 		margin: 0;
 		margin-top: 5px;
 	}
 	.INFOMATI {
-		margin: 5px 0;
+		margin: 7px 0;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
 	}
 	.Application {
-		margin-top: 115px;
+		margin-top: 100px;
 	}
 	.add-info {
 		display: inline-block;

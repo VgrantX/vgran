@@ -53,13 +53,13 @@ $(function(){
     $('.add-info').click(function(){
             $(this).next().css({display:'inline-block'});
             $(this).css({display:'none'});
-            $(this).parents('.CATTLE-company').css({height:'auto',background:'#ffffff'});
+            $(this).parents('.CATTLE-company').css({height:'auto',background:'#ffffff',overflow:'visible'});
 
     })
     $('.remove-info').click(function(){
             $(this).prev().css({display:'inline-block'});
             $(this).css({display:'none'});
-            $(this).parents('.CATTLE-company').css({height:'55px',background:'#f0f0f0'});
+            $(this).parents('.CATTLE-company').css({height:'55px',background:'#f0f0f0',overflow:'hidden'});
     })
     // 收藏
     $('.add-info-img').click(function(){
