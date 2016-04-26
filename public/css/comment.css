@@ -429,3 +429,20 @@ a:hover {
 	margin-top: 10px;
 	padding-left: 15px;
 }
+/*申请职位*/
+.WORK {
+	width: 180px;
+	height: 60px;
+	background: #fe8369;
+	border-radius: 5px;
+	margin: 15px auto;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 20px;
+}
+@media screen and (max-width: 736px) {
+	.share .info {
+		right: -20px;
+	}
+}
