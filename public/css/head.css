@@ -2,9 +2,12 @@
 .header-top {
 	display: none;
 	background: #29abe2;
-	height: 80px;
+	height: 70px;
 	padding: 0 20px;
 	position: relative;
+}
+.header-top .PortraitImg img {
+	width: 35px;
 }
 .HeaderTopFixed {
 	position: fixed;
@@ -14,12 +17,12 @@
 }
 .HeaderTop {
 	width: 100%;
-	height: 80px;
+	height: 70px;
 	display: none;
 }
 .MainNav {
 	position: absolute;
-	top: 80px;
+	top: 70px;
 	left: 0;
 	width: 100%;
 	height: 1px;
@@ -45,7 +48,7 @@ li.MainNav_list.active {
 .MainNav .MainNav_lists li a {
 	display: inline-block;
 	width: 100%;
-	padding-top: 15px;
+	padding-top: 5px;
 	padding-left: 80px;
 }
 .MainNav .MainNav_lists li b {
@@ -63,8 +66,8 @@ li.MainNav_list.active {
 .MainNav li {
 	background: #3BBBF2;
 	width: 100%;
-	height: 80px;
-	padding-top: 30px;
+	height: 60px;
+	padding-top: 20px;
 	font-size: 16px;
 	color: #ffffff;
 	padding-left: 15px;
@@ -74,14 +77,14 @@ li.MainNav_list.active {
 .header-top-nav {
 	width: 35px;
 	height: 22px;
-	padding-top: 30px;
+	padding-top: 25px;
 }
 .header-top-nav img {
 	width: 100%;
 }
 .arrow-top {
 	float: right;
-	margin-top: 30px;
+	margin-top: 25px;
 	display: inline-block;
 	transition: all 0.5s;
 	-moz-transition: all 0.5s;	/* Firefox 4 */
@@ -119,6 +122,8 @@ li.MainNav_list.active {
 	color: #ffffff;
 	border-bottom: 1px solid #29abe2;
 	text-align: center;
+}
+.MainLogin li a {
 	color: #ffffff;
 }
 /*内容*/
@@ -140,7 +145,7 @@ li.MainNav_list.active {
 	width: 50px;
 	height: 50px;
 	padding: 2px;
-	margin-top: 15px;
+	margin-top: 10px;
 	margin-bottom: 0;
 	margin-right: 20px;
 	display: inline-block;
@@ -268,7 +273,7 @@ li.MainNav_list.active {
 	width: 100%;
 	background: #333333;
 	color: #ffffff;
-	padding: 40px 0 40px 0;
+	padding: 30px 0 30px 0;
 	line-height: 2;
 }
 .App-footer {
@@ -276,7 +281,7 @@ li.MainNav_list.active {
 	background: #1b212c;
 	color: #ffffff;
 	font-size: 20px;
-	padding: 15px 10px;
+	padding: 20px 10px;
 	width: 100%;
 }
 .footer span,.App-footer span {

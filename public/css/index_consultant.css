@@ -24,7 +24,7 @@ a:hover {
 		width: 15%;
 	}
 	.cattle-col-md-2 {
-		width: 33%;
+		width: 33.3%;
 	}
 	.cattle-col-md-1,.CattleKong {
 		display: none;
@@ -35,7 +35,7 @@ a:hover {
 		display: none;
 	}
 	.cattle-col-md-2 {
-		width: 50%;
+		width: 100%;
 	}
 	.box-consultant .main-title {
 		margin: 10px 0;
