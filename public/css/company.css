@@ -84,8 +84,7 @@
 }
 .FontH1 {
 	background: #e6e6e6;
-	width: 215px;
-	height: 50px;
+	padding: 10px;
 	text-align: center;
 	padding-top: 10px;
 	font-size: 22px;
@@ -163,7 +162,9 @@
 .footer-box {
 	margin-top: 200px;
 }
-
+.fenge {
+	display: inline-block; width: 100%;margin: 35px 0;
+}
 .round {
 	width: 10px;
 	height: 10px;
@@ -186,9 +187,16 @@
 }
 
 @media screen and (max-width: 736px) {
+	.fenge {
+		margin: 10px 0;
+	}
 	.CATTLE-name {
 		margin-top: 25px;
 		padding: 0;
+	}
+	.FontH1 {
+		font-size: 18px;
+		margin-top: 0;
 	}
 	.ReturnPage {
 		display: none;
@@ -217,7 +225,8 @@
 		overflow: hidden;
 		height: 55px;
 		background: #f0f0f0;
-		padding: 13px 30px;
+		padding: 13px 15px;
+		margin-bottom: 15px;
 	}
 	.CATTLE-company .font-blue span {
 		display: block;
