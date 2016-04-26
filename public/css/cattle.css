@@ -1,0 +1,142 @@
+/*详情页*/
+.CATTLE {
+	padding: 0 5px;
+}
+.ReturnPage {
+	background: #ffffff;
+	padding: 10px 70px;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+/*简介*/
+.CATTLE-people {
+	margin-top: 20px;
+	border-radius: 10px 10px 0 0;
+	padding: 30px 10% 80px;
+	background: #ffffff;
+	font-size: 14px;
+	z-index: 1;
+	position: relative;
+	box-shadow: 0px 10px 40px rgba(0,0,0,0.2);
+}
+.CATTLE-people-info {
+	border-radius: 0 0 10px 10px;
+	padding: 60px 10%;
+	display: inline-block;
+	width: 100%;
+	background: #ffffff;
+}
+/*人物信息*/
+.PortraitImg {
+	border: 2px solid #000000;
+	width: 165px;
+	height: 165px;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+.CATTLE-name {
+	font-size: 22px;
+	color: #333333;
+	padding: 15px 0;
+}
+.Introduction {
+	border: 2px solid #cdcdcd;
+	border-radius: 5px;
+	padding: 20px;
+	width: 100%;
+	display: inline-block;
+}
+.IntroductionFont span {
+	margin-right: 3%;
+}
+.IntroductionFont div {
+	margin-top: 15px;
+}
+.Introduction img {
+	margin-top: -3px;
+	margin-right: 10px;
+}
+.Introduction .IntroductionFont {
+	margin-top: 15px;
+	color: #333333;
+}
+.FontH1 {
+	background: #e6e6e6;
+	width: 215px;
+	height: 50px;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 22px;
+	color: #333333;
+	border-radius: 20px;
+}
+.Font-line {
+	width: 80%;
+	float: right;
+	margin-top: -2px;
+	border-top: 2px solid #e6e6e6;
+}
+.CATTLE-people-infomation {
+	font-size: 14px;
+}
+.CATTLE-people-infomation p {
+	margin-top: 25px;
+}
+.CATTLE-people-infomation span {
+	color: #666666;
+}
+.CATTLE-people-infomation .CATTLE-people-infomation-p {
+	margin-top: 50px;
+}
+.CATTLE-people-panle {
+	width: 100%;
+	display: inline-block;
+}
+.CATTLE-People-Panle {
+	margin-top: 60px;
+}
+.CATTLE-People-Panle .CATTLE-people-infomation {
+	margin-top: 50px;
+	color: #666666;
+}
+.footer-box {
+	margin-top: 200px;
+}
+
+
+@media screen and (max-width: 736px) {
+	.ReturnPage {
+		display: none;
+	}
+	.CATTLE-people {
+		padding: 15px;
+	}
+	.PortraitImg {
+		width: 100px;
+		height: 100px;
+	}
+	.CATTLE-name {
+		font-size: 32px;
+	}
+	.IntroductionFont span {
+		margin-top: 10px;
+		display: inline-block;
+		width: 130px;
+	}
+	.CATTLE-people-info {
+		border-radius: 10px;
+	}
+	.CATTLE-people-info {
+		padding: 15px;
+	}
+	.CATTLE-people-infomation .CATTLE-people-infomation-p {
+		margin-top: 20px;
+	}
+	.CATTLE-people-infomation p {
+		margin-top: 10px;
+	}
+	.CATTLE-People-Panle,.CATTLE-People-Panle .CATTLE-people-infomation {
+		margin-top: 20px;
+	}
+}
+
+

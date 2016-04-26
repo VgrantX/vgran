@@ -1,0 +1,140 @@
+/*详情页*/
+.CATTLE {
+	padding: 0 5px;
+}
+.ReturnPage {
+	background: #ffffff;
+	padding: 10px 70px;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+.Features {
+	float: right;
+}
+.info-panel {
+	margin-top: 40px;
+	display: inline-block;
+}
+.info-panel div {
+	margin-bottom: 35px;
+	height: 20px;
+}
+.info-panel div span {
+	color: #666666;
+}
+.info-panel div img {
+	margin-right: 5px;
+}
+/*简介*/
+.CATTLE-people {
+	margin-top: 20px;
+	border-radius: 10px 10px 0 0;
+	padding: 30px 10% 15px;
+	background: #ffffff;
+	font-size: 14px;
+	z-index: 1;
+	position: relative;
+	box-shadow: 0px 10px 40px rgba(0,0,0,0.2);
+	display: inline-block;
+	width: 100%;
+}
+.CATTLE-people p {
+	margin-top: 15px;
+}
+.font-blue {
+	font-size: 30px;
+}
+.font-red {
+	color: #ff3e03;
+	font-size: 30px;
+}
+.CATTLE-people-info {
+	border-radius: 0 0 10px 10px;
+	padding: 75px 10% 60px;
+	display: inline-block;
+	width: 100%;
+	background: #ffffff;
+}
+/*人物信息*/
+
+.IntroductionFont span {
+	margin-right: 3%;
+}
+.Introduction img {
+	margin-top: -3px;
+	margin-right: 10px;
+}
+.Introduction .IntroductionFont {
+	margin-top: 15px;
+	color: #333333;
+}
+.FontH1 {
+	
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 22px;
+	color: #333333;
+	border-radius: 20px;
+}
+.Font-line {
+	width: 100%;
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	border-top: 2px solid #e6e6e6;
+}
+.CATTLE-people-infomation {
+	font-size: 14px;
+	line-height: 2;
+	color: #999999;
+	margin-bottom: 40px;
+}
+.CATTLE-people-panle b {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: #29abe2;
+	border-radius: 3px;
+}
+.CATTLE-people-panle p span {
+	font-size: 22px;
+}
+.footer-box {
+	margin-top: 200px;
+}
+.Features {
+	margin-top: 15px;
+}
+.APP {
+	display: none;
+}
+@media screen and (max-width: 736px) {
+	.ReturnPage {
+		display: none;
+	}
+	.CATTLE-people {
+		padding: 15px;
+	}
+	.PortraitImg {
+		width: 100px;
+		height: 100px;
+	}
+	.CATTLE-name {
+		font-size: 32px;
+	}
+	.CATTLE-people-info {
+		border-radius: 10px;
+	}
+	.CATTLE-people-info {
+		padding: 15px;
+	}
+	.APP {
+		display: inline-block;
+	}
+	.WEB {
+			display: none;
+	}
+}
+
+

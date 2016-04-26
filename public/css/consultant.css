@@ -1,0 +1,205 @@
+/*详情页*/
+.CATTLE {
+	padding: 0 5px;
+}
+
+/*简介*/
+.CATTLE-people {
+	margin-top: 20px;
+	border-radius: 10px 10px 0 0;
+	padding: 30px 10% 80px;
+	background: #ffffff;
+	font-size: 14px;
+	z-index: 1;
+	position: relative;
+	box-shadow: 0px 10px 40px rgba(0,0,0,0.2);
+}
+.CATTLE-people-info {
+	border-radius: 0 0 10px 10px;
+	padding: 60px 10%;
+	display: inline-block;
+	width: 100%;
+	background: #ffffff;
+}
+.CATTLE-people-info .INFOMATION {
+	margin: 20px 0 30px 0;
+}
+.CATTLE-people-info b {
+	font-size: 18px;
+	color: #333333;
+	font-weight: normal;
+}
+.CATTLE-people-info {
+	color: #999999;
+}
+/*人物信息*/
+.PortraitImg {
+	border: 2px solid #000000;
+	width: 165px;
+	height: 165px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.CATTLE-name {
+	font-size: 22px;
+	color: #333333;
+	padding: 15px 0;
+}
+.Introduction {
+	border: 2px solid #f68f8f;
+	border-radius: 5px;
+	padding: 20px;
+	width: 100%;
+	display: inline-block;
+}
+
+.Introduction img {
+	margin-top: -3px;
+	margin-right: 10px;
+}
+.Introduction .IntroductionFont {
+	margin-top: 15px;
+	color: #333333;
+	display: inline-block;
+}
+.IntroductionFont span {
+	margin-top: 15px;
+	display: inline-block;
+}
+.INFOMATI {
+	margin: 20px 0 30px 0;
+}
+.FontH1 {
+	background: #e6e6e6;
+	width: 215px;
+	height: 50px;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 22px;
+	color: #333333;
+	border-radius: 20px;
+	float: left;
+}
+.Font-line {
+	width: 95%;
+	float: right;
+	margin-top: 20px;
+	display: inline-block;
+	border-top: 2px solid #e6e6e6;
+}
+.CATTLE-people-infomation {
+	border: 1px solid #f68f8f;
+	padding: 25px 55px 25px 55px;
+	font-size: 14px;
+	margin-top: 25px;
+}
+.CATTLE-people-infomation .font-blue {
+	font-size: 22px;
+}
+.CATTLE-people-infomation .font-blue span { 
+	margin-left: 25px;
+	font-size: 14px;
+	color: #999999;
+}
+.company-name {
+	font-size: 16px;
+	color: #333333;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+.company-name-en {
+	font-size: 14px;
+	color: #999999;
+	margin-top: 25px;
+	margin-left: 15px;
+}
+.font-red {
+	font-size: 20px;
+	color: #ff3e03;
+	margin-top: 15px;
+}
+.CATTLE-people-infomation span {
+	color: #666666;
+}
+.CATTLE-people-infomation .CATTLE-people-infomation-p {
+	margin-top: 50px;
+}
+
+.footer-box {
+	margin-top: 200px;
+}
+.Features {
+	float: none;
+}
+.round {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	float: left;
+	border-radius: 50%;
+	background: #c1c1c1;
+	margin-top: 15px;
+}
+.Application {
+	max-width: 120px;
+	height: 40px;
+	float: right;
+	padding: 0 20px;
+	background: #fe8369;
+	border-radius: 5px;
+	color: #ffffff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 50px;
+}
+.recommend {
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+@media screen and (max-width: 736px) {
+	.ReturnPage {
+		display: none;
+	}
+	.CATTLE-people {
+		padding: 15px;
+	}
+	.PortraitImg {
+		width: 100px;
+		height: 100px;
+	}
+	.CATTLE-name {
+		font-size: 32px;
+	}
+	.IntroductionFont span {
+		margin-top: 10px;
+	}
+	.CATTLE-people-info {
+		border-radius: 10px;
+	}
+	.CATTLE-people-info {
+		padding: 15px;
+	}
+
+	.CATTLE-people-infomation .CATTLE-people-infomation-p {
+		margin-top: 20px;
+	}
+	.CATTLE-people-infomation p {
+		margin-top: 10px;
+	}
+	.add-info {
+		display: inline-block;
+	}
+	.CATTLE-company {
+		overflow: hidden;
+		height: 55px;
+		background: #f0f0f0;
+		padding: 13px 30px;
+	}
+	.company-name,.company-name-en {
+		margin: 0;
+	}
+}
+
+

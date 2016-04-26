@@ -1,0 +1,222 @@
+.cattle_banner img {
+	width: 100%;
+}
+.cattle_banner {
+	width: 100%;
+	position: relative;
+}
+
+.content {
+	background: #f0f4f8;
+	padding: 0;
+	overflow: hidden;
+}
+.cattle_content {
+	padding: 8%;
+}
+.owl-pagination {
+	display: none;
+}
+.owl-buttons {
+	display: inline-block;
+}
+.owl-theme .owl-controls .owl-buttons div {
+	position: absolute;
+	top: 40%;
+	opacity: 1;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+	background: url("../images/header/button.png") no-repeat;
+	background-size: 100%;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	color: rgba(1,1,1,0);
+	right: -10%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+	background: url("../images/header/button-l.png") no-repeat;
+	background-size: 100%;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	color: rgba(1,1,1,0);
+	left: -10%;
+}
+.cattle-info-img {
+	width: 100%;
+	padding: 0;
+	overflow: hidden;
+	box-shadow: 0px 2px 7px rgba(0,0,0,0.5);
+}
+.cattle-info-img img {
+	width: 100%;
+}
+.cattle-info-chat {
+	font-size: 14px;
+	padding-left: 10%;
+	height: 100%;
+	border-left: 1px solid #dadada;
+}
+.ChatBox a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.cattle-info-chat-left {
+	width: 100%;
+	font-size: 14px;
+	padding-right: 10%;
+	overflow: hidden;
+	border-right: 1px solid #dadada;
+}
+.cattle-info-chat img {
+	width: 100%;
+}
+.cattle-infomation {
+	color: #333333;
+}
+.cattle-infomation-left {
+	color: #333333;
+}
+.cattle-infomation p,.cattle-infomation-left p {
+	width: 100%;
+	margin-top: 0px;
+	line-height: 1.5;
+}
+.cattle-infomationName {
+	color: #222222;
+	font-size: 16px;
+}
+.cattle-BannerContent {
+	padding: 50px 0 200px;
+	width: 100%;
+	z-index: 1;
+	background: #dddddd;
+}
+.cattleBannerSlide {
+	margin-top: 125px;
+	padding: 0 10%;
+}
+
+.cattleBannerSlide .item {
+	margin: 0 20px;
+}
+.attleBannerSlide-owl-a {
+	box-shadow: 0px 2px 6px rgba(0,0,0,0.5);
+}
+.chat-box {
+	padding: 0 3%;
+}
+.chat-box-content {
+	margin: 40px 20px 0 20px;
+	border: 2px solid #7bd3f6;
+	border-radius: 10px;
+	padding: 10px 25px 10px 30px;
+}
+.ArrowBottom {
+	text-align: center;
+	margin-top: 50px;
+	width: 100%;
+}
+.ArrowBottom img {
+	width: 20px;
+}
+
+.cattle-info-chat p,.cattle-info-chat-left p {
+		overflow: hidden;
+		width: 100%;
+		text-overflow: ellipsis;
+		text-decoration: none;
+		white-space:nowrap;
+	}
+
+@media screen and (max-width: 736px) {
+	.cattleBannerSlide {
+		margin-top: 10px;
+	}
+	.cattle-BannerContent {
+		padding: 10px 0 0 0;
+	}
+	.chat-box-content {
+		padding: 10px;
+		margin: 10px 0;
+	}
+	.ArrowBottom {
+		display: none;
+	}
+	.cattle_content {
+		padding: 0;
+	}
+	.chat-box {
+		padding: 0 30px;
+	}
+	.owl-theme .owl-controls .owl-buttons .owl-next {
+		right: -15%;
+		z-index: 9999999;
+	}
+	.owl-theme .owl-controls .owl-buttons .owl-prev {
+		left: -15%;
+		z-index: 9999999;
+	}
+	.cattle-info-img {
+		margin-top: 15%;
+	}
+	
+}
+@media screen and (max-width: 620px) {
+	.cattle-info-chat {
+		margin-top: 5%;
+	}	
+	.cattle-info-img {
+		margin-top: 0;
+	}
+	.cattle-info-chat-left {
+		margin-top: 5%;
+	}
+}
+@media screen and (min-width: 620px) and (max-width: 736px) {
+	.cattle-info-chat {
+		margin-top: 10%;
+		line-height: 2;
+	}	
+	.cattle-info-chat-left {
+		margin-top: 10%;
+		line-height: 2;
+	}
+	.cattle-info-img {
+		margin-top: 0;
+	}
+}
+@media screen and (min-width: 780px) and (max-width: 1000px) {
+	.cattle-info-chat {
+		margin-top: 5%;
+		line-height: 2;
+	}	
+	.cattle-info-chat-left {
+		margin-top: 5%;
+		line-height: 2;
+	}
+}
+@media screen and (min-width: 1300px) {
+	.cattle-info-chat {
+		margin-top: 5%;
+		line-height: 2;
+	}	
+	.cattle-info-chat-left {
+		margin-top: 5%;
+		line-height: 2;
+	}
+}
+@media screen and (min-width: 2200px) {
+	.cattle-info-chat {
+		margin-top: 10%;
+		line-height: 2;
+	}
+	.cattle-info-chat-left {
+		margin-top: 10%;
+		line-height: 2;
+	}
+}
+
