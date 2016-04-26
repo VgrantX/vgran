@@ -26,12 +26,16 @@
 	background: #ffffff;
 }
 /*人物信息*/
-.PortraitImg {
+.PortraitIMG {
 	border: 2px solid #000000;
 	width: 165px;
 	height: 165px;
 	border-radius: 5px;
 	margin: 0 auto;
+	overflow: hidden;
+}
+.PortraitIMG img {
+	width: 100%;
 }
 .CATTLE-name {
 	font-size: 22px;

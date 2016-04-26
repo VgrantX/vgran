@@ -232,6 +232,9 @@ a:hover {
 	border-radius: 50%;
 	overflow: hidden;
 }
+.LOGIN-photo-img img {
+	width: 100%;
+}
 .LOGIN p {
 	font-size: 18px;
 	margin-top: 10px;
