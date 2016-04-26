@@ -394,10 +394,19 @@ a:hover {
 	margin-top: 5px;
 }
 .share .info div {
-	padding: 55px 0px 55px 55px;
+	padding-top: 40px;
+	padding-left: 60px;
 }
 .share .info div a {
-	margin-right: 40px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 60px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+}
+.share .info div a img {
+	margin-bottom: 10px;
 }
 /*搜索*/
 .search {
