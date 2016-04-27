@@ -63,7 +63,12 @@
 .Introduction .IntroductionFont {
 	margin-top: 15px;
 	color: #333333;
+	width: 100%;
 	display: inline-block;
+}
+.IntroductionFont div {
+	float: left;
+	margin-left: 10px;
 }
 .IntroductionFont span {
 	margin-top: 15px;
@@ -98,6 +103,7 @@
 }
 .CATTLE-people-infomation .font-blue {
 	font-size: 22px;
+	color: #29abe2;
 }
 .CATTLE-people-infomation .font-blue span { 
 	margin-left: 25px;
@@ -184,7 +190,10 @@
 	.CATTLE-people-info {
 		padding: 15px;
 	}
-
+	.IntroductionFont div {
+		float: none;
+		margin-left: 5%;
+	}
 	.CATTLE-people-infomation .CATTLE-people-infomation-p {
 		margin-top: 20px;
 	}
