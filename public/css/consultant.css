@@ -75,7 +75,7 @@
 	display: inline-block;
 }
 .INFOMATI {
-	margin: 20px 0 30px 0;
+	margin: 20px 0 0 0;
 }
 .FontH1 {
 	background: #e6e6e6;
@@ -97,9 +97,10 @@
 }
 .CATTLE-people-infomation {
 	border: 1px solid #f68f8f;
-	padding: 25px 55px 25px 55px;
 	font-size: 14px;
 	margin-top: 25px;
+	position: relative;
+	padding: 25px 45px;
 }
 .CATTLE-people-infomation .font-blue {
 	font-size: 22px;
@@ -113,14 +114,12 @@
 .company-name {
 	font-size: 16px;
 	color: #333333;
-	margin-left: 15px;
 	margin-top: 5px;
 }
 .company-name-en {
 	font-size: 14px;
 	color: #999999;
-	margin-top: 25px;
-	margin-left: 15px;
+	margin-top: 15px;
 }
 .font-red {
 	font-size: 20px;
@@ -166,8 +165,40 @@
 	overflow: hidden;
 	white-space:nowrap;
 	text-overflow:ellipsis;
+	margin-top: 20px;
+	margin-left: -15px;
+}
+.triangle {
+	display: inline-block;
+	position: absolute;
+	top: -25px;
+	left: -30px;
+	border: 25px solid #fe6262;
+	border-right-color:rgba(0,0,0,0);
+	border-bottom-color:rgba(0,0,0,0);
+}
+.triangle span {
+	position: absolute;
+	top: -18px;
+	left: -18px;
+	color: #ffffff;
+	font-size: 14px;
+}
+.gray {
+	border: 25px solid #afaeae;
+	border-right-color:rgba(0,0,0,0);
+	border-bottom-color:rgba(0,0,0,0);
+}
+.gray span {
+	left: -25px;
+    display: inline-block;
+    width: 28px;
 }
 @media screen and (max-width: 736px) {
+	.triangle {
+		top: -14px;
+		left: -5px;
+	}
 	.ReturnPage {
 		display: none;
 	}
@@ -194,23 +225,56 @@
 		float: none;
 		margin-left: 5%;
 	}
+	.CATTLE-people-infomation {
+		padding: 25px;
+	}
+	.CATTLE-people-infomation .font-blue {
+		font-size: 16px;
+	}
 	.CATTLE-people-infomation .CATTLE-people-infomation-p {
 		margin-top: 20px;
 	}
-	.CATTLE-people-infomation p {
+	.CATTLE-people-infomation p,.recommend {
 		margin-top: 10px;
 	}
 	.add-info {
 		display: inline-block;
+		margin-left: 40px;
+		margin-right: 0;
+		position: relative;
+		z-index: 100;
+	}
+	.remove-info {
+		margin-left: 40px;
+		margin-right: 0;
+		position: relative;
+		z-index: 100;
 	}
 	.CATTLE-company {
 		overflow: hidden;
 		height: 55px;
 		background: #f0f0f0;
-		padding: 13px 30px;
+		padding: 13px 10px 13px 20px;
 	}
 	.company-name,.company-name-en {
 		margin-left: 0;
+	}
+	.search input {
+		display: none;
+	}
+	.Application {
+		padding: 0 2px;
+	}
+	.search img {
+		right: 5px;
+	}
+	.font-h5 {
+		display: block;
+		margin-top: 15px;
+		margin-left: 15px;
+	}
+	.font-red {
+		font-size: 16px;
 	}
 }
 
