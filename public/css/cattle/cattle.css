@@ -9,15 +9,24 @@
 .more {
 	width: 100%;
 	height: 60px;
-	background: #f5989d;
 	font-size: 16px;
 	text-align: center;
 	padding-top: 20px;
 	margin-top: 10px;
-
+	color: #333333;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;	/* Firefox 4 */
+	-webkit-transition: all 0.5s;	/* Safari 和 Chrome */
+	-o-transition: all 0.5s;	/* Opera */
+}
+.more:hover {
+	background: #f5989d;
+}
+.more:hover a {
+	color: #ffffff;
 }
 .more a {
-	color: #ffffff;
+	color: #333333;
 }
 /*金牌顾问*/
 .panel {

@@ -22,65 +22,64 @@
 }
 /*金牌顾问*/
 .panel {
-	text-align: center;
-	box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
 	border-radius: 0;
 	border: none;
 	display: inline-block;
 	width: 100%;
+	padding: 15px 20px;
 }
 .Portrait {
-	border-radius: 50%;
-	width: 110px;
-	height: 110px;
+	width: 100%;
 	background: #ffffff;
-	border: 3px solid #ffffff;
-	margin: 35px auto;
 	overflow: hidden;
 }
 .Portrait img {
 	width: 100%;
 }
 .panel .top {
-	background: #d6d1d1;
-	height: 105px;
-	padding: 10px;
+	padding-top: 15px;
 }
-.panel .top .topL {
-	float: left;
-	padding: 5px 15px;
-	background: #ffffff;
-	border-radius: 15px;
-	box-shadow: 0px 2px 10px rgba(0,0,0,0.3);
+.panel .top img {
+	width: 15px;
+}
+.panel .top .font-blue {
+	font-size: 22px;
+}
+.panel .top .font-h1 {
+	font-size: 20px;
 }
 .panel .top .topR {
 	float: right;
 }
-.panel .top .topR img {
-	width: 15px;
+.panel .shanchang {
+    font-size: 14px;
+    color: #666666;
+    margin-top: 20px;
 }
-.panel .info {
-	padding-top: 65px;
+.panel .shanchan b {
+    color: #333333;
+    font-size: 16px;
 }
-.panel .info .font-blue {
-	font-size: 22px;
+.panel .box-bottom {
+	font-size: 14px;
+	margin-top: 10px;
+}
+.panel .box-bottom b {
+	color: #cc0e30;
+	font-size: 20px;
+}
+.panel .box-bottom .more {
+	width: 80px;
+	height: 30px;
+	color: #ffffff;
+	display: inline-block;
+	margin: 0;
+	box-shadow: none;
+	float: right;
+	font-size: 16px;
+	padding-top: 5px;
 }
 
-.panel .info .font-h1 {
-	font-size: 18px;
-	margin: 10px 0 15px 0;
-}
-.panel .info .information {
-	margin-bottom: 25px;
-}
-.panel .info .information span {
-	font-size: 14px;
-	color: #666666;
-	padding: 5px 7px;
-	border-radius: 15px;
-	border: 1px solid #55a8fd;
-}
-.panel .info .shanchan p {
-	margin-bottom: 10px;
-}
+
 

@@ -162,7 +162,7 @@ li.MainNav_list.active {
 	border-radius: 50%;
 	background: #ffffff;
 	margin-top: 35px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	margin-left: 54px;
 	padding: 5px;
 	overflow: hidden;
@@ -253,7 +253,7 @@ li.MainNav_list.active {
 	color: #ffffff;
 }
 .Login {
-	margin-top: 50px;
+	margin-top: 30px;
 }
 .Login a {
 	color: #ffffff;
