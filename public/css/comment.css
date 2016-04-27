@@ -66,10 +66,10 @@ a:hover {
 }
 .icon-line {
 	display: inline-block;
-	width: 30px;
+	width: 22px;
 	height: 1px;
 	border-top: 1px solid #000000;
-	margin-bottom: 10px;
+	margin-bottom: 6px;
 }
 .icon-name {
 	background: url("../images/header/USER.png") no-repeat center left;
@@ -169,16 +169,16 @@ a:hover {
 }
 /*字体*/
 .title {
-	font-size: 20px;
+	font-size: 16px;
 	color: #333333;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 .title-con {
-	font-size: 16px;
+	font-size: 14px;
 	color: #999999;
-	margin-top: 15px;
-    line-height: 35px;
+	margin-top: 5px;
+    line-height: 28px;
 }
 .Company-profile {
 	margin-top: 100px;
@@ -186,7 +186,7 @@ a:hover {
 .main-title {
 	color: #1b212c;
 	text-align: center;
-	font-size: 30px;
+	font-size: 22px;
 }
 /*字体颜色*/
 .font-blue {

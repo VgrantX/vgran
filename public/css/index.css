@@ -17,7 +17,7 @@
 }
 .company-owl-font-a .title-con {
 	padding: 0 15%;
-	height: 70px;
+	height: 80px;
 	overflow: hidden;
 }
 .img-position {
@@ -77,8 +77,9 @@
 
 /*流式布局样式*/
 .Company-profile {
-	padding: 15px;
+	padding: 0px;
 }
+.Company-profile_a{padding:0px 22px 0px 14px;}
 .Fbox{
     position:relative;margin-bottom: 82px;padding:0 0 0 15px;
 }
@@ -97,10 +98,10 @@
     display: block;
 }
 .Fbox li>div h1{
-    font-size: 20px;text-align: center;color:#333;
+    font-size: 16px;text-align: center;color:#333;
 }
 .Fbox li>div p{
-    font-size: 16px;line-height: 32px;color:#999;
+    font-size: 14px;line-height: 26px;color:#999;
 }
 
 @media screen and (max-width: 736px) {
