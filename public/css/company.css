@@ -49,7 +49,7 @@
 /*人物信息*/
 
 .CATTLE-name {
-	font-size: 22px;
+	font-size: 16px;
 	color: #333333;
 	padding: 15px 0;
 }
@@ -72,7 +72,7 @@
 .IntroductionFont span {
 	margin-top: 15px;
 	margin-right: 25px;
-	font-size: 16px;
+	font-size: 14px;
 	color: #222222;
 	display: inline-block;
 }
@@ -128,7 +128,7 @@
 	position: relative;
 }
 .CATTLE-company b {
-	font-size: 18px;
+	font-size: 14px;
 	cursor: pointer;
 }
 .CATTLE-company .font-blue {
@@ -177,13 +177,13 @@
 }
 .Application {
 	width: 100%;
-	height: 40px;
+	height: 30px;
 	background: #fe8369;
 	border-radius: 5px;
 	color: #ffffff;
-	font-size: 16px;
+	font-size: 14px;
 	text-align: center;
-	line-height: 40px;
+	line-height: 30px;
 	margin-top: 145px;
 }
 
@@ -192,14 +192,14 @@
 		font-size: 14px;
 	}
 	.font-blue a {
-		font-size: 16px;
+		font-size: 14px;
 	}
 	.Features b {
 		margin-left: 0;
 		margin-right: 10px;
 	}
 	.fenge {
-		margin: 10px 0;
+		margin: 0px 0px 10px;
 	}
 	.CATTLE-name {
 		margin-top: 25px;
@@ -236,7 +236,7 @@
 		overflow: hidden;
 		height: 55px;
 		background: #f0f0f0;
-		padding: 13px 15px;
+		padding: 10px 15px;
 		margin-bottom: 15px;
 	}
 	.CATTLE-company .font-blue span {

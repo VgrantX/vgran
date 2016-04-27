@@ -25,13 +25,13 @@ a:hover {
 	background: url("../images/header/qiye.png") no-repeat center;
 	background-size: 100%;
 	width: 20px;
-	height: 20px;
+	height:20px;
 }
 .icon-home {
 	background: url("../images/header/qiye-2.png") no-repeat center;
 	background-size: 100%;
-	width: 20px;
-	height: 20px;
+	width: 15px;
+	height: 15px;
 }
 .icon-peoples {
 	background: url("../images/header/USERS.png") no-repeat center;
@@ -48,7 +48,7 @@ a:hover {
 .icon-people {
 	background: url("../images/header/USER-ok.png") no-repeat center;
 	background-size: 100%;
-	width: 20px;
+	width: 18px;
 	height: 20px;
 }
 .icon-people-w {
@@ -73,7 +73,7 @@ a:hover {
 }
 .icon-name {
 	background: url("../images/header/USER.png") no-repeat center left;
-	background-size: 20px;
+	background-size: 14px;
 	width: 100%;
 	height: 20px;
 	padding-left: 30px;
@@ -81,10 +81,11 @@ a:hover {
 	display: inline-block;
     color: #333;
 	font-weight:500;
+	font-size:14px;
 }
 .icon-map {
 	background: url("../images/header/map.png") no-repeat center bottom;
-	background-size: 15px;
+	background-size: 12px;
 	width: 15px;
 	height: 20px;
 	padding-left: 30px;
@@ -93,13 +94,14 @@ a:hover {
 }
 .icon-table {
 	background: url("../images/header/TAGS.png") no-repeat center left;
-	background-size: 20px;
+	background-size: 14px;
 	width: 100%;
 	height: 20px;
 	padding-left: 30px;
 	margin-top: 5px;
 	 color: #333;
 	font-weight:500;
+	font-size:14px;
 }
 .icon-lineW {
 	background: url("../images/header/line-w.png") repeat center left;
@@ -186,7 +188,7 @@ a:hover {
 .main-title {
 	color: #1b212c;
 	text-align: center;
-	font-size: 22px;
+	font-size: 20px;
 }
 /*字体颜色*/
 .font-blue {
@@ -199,7 +201,7 @@ a:hover {
 	margin-bottom: 10px;
 }
 .icon-posi{
-    height: 20px;display: block;line-height: 20px;float: right;padding-top: 6px;
+    height: 20px;display: block;line-height: 20px; float: right;padding-top: 6px;font-size:14px;
 }
 
 /*人物信息模块*/
@@ -211,7 +213,7 @@ a:hover {
 	background: #ffffff;
 }
 .bg-pink {
-	height: 75px;
+	height: 50px;
 	width: 100%;
 	background: #f68f8f;
 	border-radius: 10px 10px 0 0 ;
@@ -236,12 +238,12 @@ a:hover {
 	width: 100%;
 }
 .LOGIN p {
-	font-size: 18px;
+	font-size: 16px;
 	margin-top: 10px;
 }
 .LOGIN p span {
 	color: #666666;
-	font-size: 16px;
+	font-size: 14px;
 }
 .FontPink {
 	color: #f68f8f;
@@ -250,7 +252,7 @@ a:hover {
 }
 .FontPink span {
 	color: #666666;
-	padding-top: 20px;
+	padding-top: 8px;
 	display: inline-block;
 }
 /*登录注册*/
@@ -278,7 +280,7 @@ a:hover {
 	color: #999999;
 }
 .LOGIN .Font-line {
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	width: 80%;
 	margin-left: 10%;
 	float: none;
@@ -311,7 +313,7 @@ a:hover {
 }
 .CompanyName {
 	width: 80%;
-	margin: 15px auto;
+	margin: 0px auto;
 }
 /*功能*/
 .Features {
@@ -432,15 +434,15 @@ a:hover {
 }
 /*申请职位*/
 .WORK {
-	width: 180px;
-	height: 60px;
+	width: 120px;
+	height: 40px;
 	background: #fe8369;
 	border-radius: 5px;
 	margin: 15px auto;
 	color: #ffffff;
 	text-align: center;
-	padding-top: 15px;
-	font-size: 20px;
+	line-height: 40px;
+	font-size:14px;
 }
 @media screen and (max-width: 736px) {
 /*	.share .info {

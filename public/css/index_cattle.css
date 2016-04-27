@@ -28,8 +28,8 @@
 .owl-theme .owl-controls .owl-buttons .owl-next {
 	background: url("../images/header/button.png") no-repeat;
 	background-size: 100%;
-	width: 50px;
-	height: 50px;
+	width: 35px;
+	height: 35px;
 	display: inline-block;
 	color: rgba(1,1,1,0);
 	right: -10%;
@@ -37,8 +37,8 @@
 .owl-theme .owl-controls .owl-buttons .owl-prev {
 	background: url("../images/header/button-l.png") no-repeat;
 	background-size: 100%;
-	width: 50px;
-	height: 50px;
+	width: 35px;
+	height: 35px;
 	display: inline-block;
 	color: rgba(1,1,1,0);
 	left: -10%;
@@ -56,7 +56,7 @@
 	font-size: 14px;
 	padding-left: 10%;
 	height: 100%;
-	border-left: 1px solid #dadada;
+	
 }
 .ChatBox a {
 	display: inline-block;
@@ -69,7 +69,7 @@
 	font-size: 14px;
 	padding-right: 10%;
 	overflow: hidden;
-	border-right: 1px solid #dadada;
+	
 }
 .cattle-info-chat img {
 	width: 100%;
@@ -86,8 +86,9 @@
 	line-height: 1.5;
 }
 .cattle-infomationName {
-	color: #222222;
+	color: #333;
 	font-size: 16px;
+	font-weight:600;
 }
 .cattle-BannerContent {
 	padding: 50px 0 200px;
@@ -111,7 +112,7 @@
 }
 .chat-box-content {
 	margin: 40px 20px 0 20px;
-	border: 2px solid #7bd3f6;
+	border: 2px solid #e6e6e6;
 	border-radius: 10px;
 	padding: 10px 25px 10px 30px;
 }

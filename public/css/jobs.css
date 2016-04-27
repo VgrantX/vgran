@@ -98,13 +98,13 @@
 	border-radius: 3px;
 }
 .CATTLE-people-panle p span {
-	font-size: 22px;
+	font-size: 18px;
 }
 .footer-box {
 	margin-top: 200px;
 }
 .Features {
-	margin-top: 15px;
+	margin-top: 0px;
 }
 .APP {
 	display: none;
@@ -135,8 +135,19 @@
 		display: block;
 	}
 	.font-red {
-		font-size: 24px;
+		font-size: 14px;
 	}
+	.bgLoginPink {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    background: #f68f8f;
+    border-radius: 10px 10px 0 0}
+	
+	.font-blue{font-size:18px;}
 	.PortraitIMG {
 		width: 100px;
 		height: 100px;
@@ -166,7 +177,8 @@
 		padding: 0px 20px;
 	}
 	.LOGIN td {
-		padding: 5px 10px;
+		padding: 4px 10px;
+		font-size:14px;
 	}
 }
 
