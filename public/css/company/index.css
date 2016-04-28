@@ -22,7 +22,7 @@
 }
 /*金牌顾问*/
 .panel {
-	box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
 	border-radius: 0;
 	border: none;
 	display: inline-block;
@@ -41,21 +41,23 @@
 	padding-top: 15px;
 }
 .panel .top img {
-	width: 15px;
+	width: 10px;
 }
 .panel .top .font-blue {
 	font-size: 22px;
 }
 .panel .top .font-h1 {
-	font-size: 20px;
+	font-size: 18px;
 }
 .panel .top .topR {
+	font-size:14px;
 	float: right;
 }
 .panel .shanchang {
+	line-height:28px;
     font-size: 14px;
-    color: #666666;
-    margin-top: 20px;
+    color: #999;
+    margin-top: 10px;
 }
 .panel .shanchan b {
     color: #333333;
@@ -64,6 +66,7 @@
 .panel .box-bottom {
 	font-size: 14px;
 	margin-top: 10px;
+	color:#999;
 }
 .panel .box-bottom b {
 	color: #cc0e30;
@@ -77,7 +80,7 @@
 	margin: 0;
 	box-shadow: none;
 	float: right;
-	font-size: 16px;
+	font-size: 14px;
 	padding-top: 5px;
 }
 
