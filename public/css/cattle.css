@@ -58,6 +58,7 @@
 .Introduction img {
 	margin-top: -3px;
 	margin-right: 10px;
+	width:14px;
 }
 .Introduction .IntroductionFont {
 	margin-top: 15px;
@@ -99,7 +100,7 @@
 	margin-top: 60px;
 }
 .CATTLE-People-Panle .CATTLE-people-infomation {
-	margin-top: 50px;
+	margin-top: 30px;
 	color: #666666;
 }
 .footer-box {

@@ -59,6 +59,7 @@
 .Introduction img {
 	margin-top: -3px;
 	margin-right: 10px;
+	width:14px;
 }
 .Introduction .IntroductionFont {
 	margin-top: 15px;
@@ -173,24 +174,24 @@
 	position: absolute;
 	top: -25px;
 	left: -30px;
-	border: 25px solid #fe6262;
+	border: 16px solid #fe6262;
 	border-right-color:rgba(0,0,0,0);
 	border-bottom-color:rgba(0,0,0,0);
 }
 .triangle span {
 	position: absolute;
-	top: -18px;
-	left: -18px;
+	top: -14px;
+	left: -13px;
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 12px;
 }
 .gray {
-	border: 25px solid #afaeae;
+	border: 20px solid #afaeae;
 	border-right-color:rgba(0,0,0,0);
 	border-bottom-color:rgba(0,0,0,0);
 }
 .gray span {
-	left: -25px;
+	left: -20px;
     display: inline-block;
     width: 28px;
 }
@@ -199,6 +200,7 @@
 		top: -14px;
 		left: -5px;
 	}
+	.share-img{width:14px;}
 	.ReturnPage {
 		display: none;
 	}
@@ -239,7 +241,7 @@
 	}
 	.add-info {
 		display: inline-block;
-		margin-left: 40px;
+		margin-left: 20px;
 		margin-right: 0;
 		position: relative;
 		z-index: 100;
