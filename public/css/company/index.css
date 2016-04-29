@@ -39,9 +39,9 @@
 .panel .companyInfo {
 	float: left;
 	padding-left: 10px;
-	width: calc(100% - 140px);
+	width: calc(100% - 115px);
 }
-.panl .Portrait img {
+.panel .Portrait img {
 	width: 100%;
 }
 .panel .top {
@@ -80,6 +80,11 @@
 	margin-top: 10px;
 	color:#999;
 }
+.panel .box-bottom span {
+	width: calc(100% - 80px);
+	display:inline-block;  text-overflow:ellipsis; white-space:nowrap; overflow:hidden;
+
+}
 .panel .box-bottom b {
 	color: #cc0e30;
 	font-size: 20px;
@@ -95,6 +100,21 @@
 	font-size: 14px;
 	padding-top: 5px;
 }
+@media screen and (max-width: 736px) {
+	.panel .Portrait{
+		width: 115px;
+		height: 115px;
+	}
+	.panel .top,.panel .shanchang,.panel .box-bottom {
+		margin-top: 3px;
+		padding-top: 0;
+	}
+	.advanced-box {
+		padding: 0 10px;
+	}
+	.panel {
+		padding: 10px 10px;
+	}
 
-
+}
 
