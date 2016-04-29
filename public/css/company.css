@@ -29,7 +29,7 @@
 	background: #ffffff;
 }
 .company-introduction {
-	text-overflow:ellipsis; white-space:nowrap; overflow:hidden;color: #666666;margin-top: 30px;
+	text-overflow:ellipsis; white-space:nowrap; overflow:hidden;color: #666666;margin-top: 10px;
 }
 .ARROWBOTTOM {
 	width: 30px;
@@ -81,7 +81,7 @@
 	width:12px;
 }
 .INFOMATI {
-	margin: 25px 0;
+	margin: 10px 0;
 }
 .FontH1 {
 	background: #e6e6e6;
@@ -165,7 +165,7 @@
 	margin-top: 200px;
 }
 .fenge {
-	display: inline-block; width: 100%;margin: 35px 0;
+	display: inline-block; width: 100%;margin: 5px 0 10px; 
 }
 .round {
 	width: 10px;
@@ -185,7 +185,7 @@
 	font-size: 14px;
 	text-align: center;
 	line-height: 30px;
-	margin-top: 145px;
+	margin-top: 86px;
 }
 .share-img{width:15px;}
 .add-info-img{width:16px;}

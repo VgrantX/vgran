@@ -62,7 +62,7 @@
 	width:14px;
 }
 .Introduction .IntroductionFont {
-	margin-top: 15px;
+	margin-top: 0px;
 	color: #333333;
 	width: 100%;
 	display: inline-block;
@@ -196,6 +196,21 @@
     width: 28px;
 }
 @media screen and (max-width: 736px) {
+	.CATTLE-people-infomation .font-blue a {
+	font-size: 16px;
+	color: #29abe2;
+}
+    .FontH1{font-size:16px;
+			width: 150px;
+			height: 40px;
+			padding-top: 8px;}
+	.PortraitIMG {
+    border: 2px solid #000000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
 	.triangle {
 		top: -14px;
 		left: -5px;
@@ -212,7 +227,7 @@
 		height: 100px;
 	}
 	.CATTLE-name {
-		font-size: 32px;
+		font-size: 18px;
 	}
 	.IntroductionFont span {
 		margin-top: 10px;
@@ -269,6 +284,7 @@
 	}
 	.search img {
 		right: 5px;
+		width:18px;
 	}
 	.font-h5 {
 		display: block;
