@@ -28,13 +28,20 @@
 	display: inline-block;
 	width: 100%;
 	padding: 15px 20px;
-}
-.Portrait {
-	width: 100%;
 	background: #ffffff;
-	overflow: hidden;
 }
-.Portrait img {
+.panel .Portrait {
+	width: 140px;
+	height: 140px;
+	overflow: hidden;
+	float: left;
+}
+.panel .companyInfo {
+	float: left;
+	padding-left: 10px;
+	width: calc(100% - 140px);
+}
+.panl .Portrait img {
 	width: 100%;
 }
 .panel .top {
@@ -48,15 +55,20 @@
 }
 .panel .top .font-h1 {
 	font-size: 18px;
+	width: calc(100% - 45px);
+	display:inline-block;  text-overflow:ellipsis; white-space:nowrap; overflow:hidden;
 }
 .panel .top .topR {
 	font-size:14px;
 	float: right;
+	width: 45px;
 }
 .panel .shanchang {
-	line-height:28px;
+	line-height: 20px;
     font-size: 14px;
     color: #999;
+    height: 39px;
+    overflow: hidden;
     margin-top: 10px;
 }
 .panel .shanchan b {
