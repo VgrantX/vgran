@@ -12,6 +12,48 @@ $(function(){
         $(this).addClass('active').siblings().removeClass('active');
         $(this).next().addClass('MainNav_listsActive').siblings().removeClass('MainNav_listsActive');
     });
+    // 选项
+    var _option = $('.option span');
+    _option.click(function(){
+        $(this).addClass('active').siblings().removeClass('active');
+        var index = $(this).index();
+    })
+
+    var flag_more = true;
+    var _MORE = $('.MORE');
+    _MORE.click(function(){
+        if (flag_more) {
+            $(this).parents('.lists').addClass('LISTS-ALL');
+            $(this).parents('.lists').find('span').css({position:'relative'});
+            $(this).find('b').css({color:'#f5989d'});
+            $(this).find('img').addClass('MORE-IMG');
+            flag_more = false;
+        }
+        else {
+            $(this).parents('.lists').removeClass('LISTS-ALL');
+            $(this).parents('.lists').find('span').css({position:'static'});
+            $(this).find('b').css({color:'#666666'});
+            $(this).find('img').removeClass('MORE-IMG');
+            flag_more = true;
+        }
+    })
+    var flag_top = true;
+    var _TOP = $('.TOP');
+    _TOP.click(function(){
+        if (flag_top) {
+            $('.TOP-ADD').css({display:'none'});
+            $('.TOP-REMOVE').css({display:'inline-block'});
+            $('.Options').css({display:'block'});
+            flag_top = false;
+        }
+        else {
+            $('.TOP-ADD').css({display:'inline-block'});
+            $('.TOP-REMOVE').css({display:'none'});
+             $('.Options').css({display:'none'});
+             flag_top = true;
+        }
+    })
+    
     // 轮播
     $("#owl-companybanner").owlCarousel({
     autoPlay : 4000,
