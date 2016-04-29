@@ -103,7 +103,7 @@
 	position: relative;
 	padding: 25px 45px;
 }
-.CATTLE-people-infomation .font-blue {
+.CATTLE-people-infomation .font-blue a {
 	font-size: 22px;
 	color: #29abe2;
 }
@@ -200,7 +200,7 @@
 		top: -14px;
 		left: -5px;
 	}
-	.share-img{width:14px;}
+	.share-img{width:14px}
 	.ReturnPage {
 		display: none;
 	}

@@ -194,6 +194,9 @@ a:hover {
 .font-blue {
 	color: #29abe2;
 }
+.font-blue a {
+	color: #29abe2;
+}
 /*背景模块*/
 .bg-white {
 	background: #ffffff;
@@ -291,6 +294,7 @@ a:hover {
 }
 .LOGIN td {
 	padding: 10px 10px 10px 10px;
+	font-size:14px;
 }
 .LOGIN td:nth-of-type(2) {
 	color: #999999;
