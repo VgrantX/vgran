@@ -338,6 +338,9 @@ li.MainNav_list.active {
 	display: none;
 	position: relative;
 }
+.SEARCH .Options .lists .list-option {
+	padding-top: 5px;
+}
 .SEARCH .Options .lists .option {
 	width: calc(100% - 150px);
 	height: 32px;
@@ -395,6 +398,7 @@ li.MainNav_list.active {
 }
 .SEARCH .Options .lists .MORE {
 	cursor: pointer;
+	padding-top: 5px;
 }
 .SEARCH .Options .lists .MORE .MORE-IMG {
 	transform: rotate(180deg);
