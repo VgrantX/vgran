@@ -340,6 +340,21 @@ li.MainNav_list.active {
 }
 .SEARCH .Options .lists .option {
 	width: calc(100% - 150px);
+	height: 32px;
+	overflow: hidden;
+}
+.SEARCH .Options .lists .option p{
+	color: #666666;
+	font-size: 14px;
+}
+.SEARCH .Options .lists .option p input {
+	width: 60px;
+	height: 24px;
+	border: 1px solid #cccccc;
+	margin-top: 15px;
+}
+.SEARCH .Options .lists .option span:hover .option-box {
+	display: inline-block;
 }
 .SEARCH .Options .lists .option .active {
 	background: #f5989d;
@@ -361,11 +376,21 @@ li.MainNav_list.active {
 	padding: 5px;
 	display: inline-block;
 }
-.SEARCH .Options .lists span div {
+.SEARCH .Options .lists span:hover {
+	background: #f5989d;
+	color: #ffffff;
+}
+.SEARCH .Options .lists span .option-box div {
+	width: 100%;
+}
+.SEARCH .Options .lists span .option-box {
+	display: none;
 	position: absolute;
-	width: 225px;
+	width: 230px;
+	margin-left: -5px;
 	padding: 5px 10px;
 	background: #ffffff;
+	z-index: 99999;
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 .SEARCH .Options .lists .MORE {
@@ -381,7 +406,12 @@ li.MainNav_list.active {
 .SEARCH .Options .lists div {
 	float: left;
 }
-
+.appear,.disappear {
+	margin-right: 5px;
+}
+.disappear {
+	display: none;
+}
 .LISTS-ALL {
 	background: #f0f0f0;
 	position: absolute;
@@ -412,6 +442,25 @@ li.MainNav_list.active {
 .SESARCH-TOP .TOP .TOP-REMOVE {
 	margin-left: 5px;
 	display: none;
+}
+.SEARCH .Options .lists span .option-box ul,.SEARCH .Options .lists span .option-box b {
+	font-size: 14px;
+	color: #999999;
+}
+.SEARCH .Options .lists span .option-box b {
+	font-size: 14px;
+	color: #333333;
+}
+.SEARCH .Options .lists span .option-box ul {
+	display: none;
+}
+.SEARCH .Options .lists span .option-box ul li input {
+    width: 15px;
+    height: 15px;
+	margin-left: 20px;
+}
+.SEARCH .Options .lists span .option-box ul li {
+	margin-top: 5px;
 }
 @media screen and (max-width: 736px) {
 	/*APP－导航*/

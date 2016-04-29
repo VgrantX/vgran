@@ -18,13 +18,14 @@ $(function(){
         $(this).addClass('active').siblings().removeClass('active');
         var index = $(this).index();
     })
-
+// 搜索
     var flag_more = true;
     var _MORE = $('.MORE');
     _MORE.click(function(){
         if (flag_more) {
             $(this).parents('.lists').addClass('LISTS-ALL');
             $(this).parents('.lists').find('span').css({position:'relative'});
+            $(this).prev('.option').css({overflow:'visible',height:'auto'});
             $(this).find('b').css({color:'#f5989d'});
             $(this).find('img').addClass('MORE-IMG');
             flag_more = false;
@@ -32,6 +33,7 @@ $(function(){
         else {
             $(this).parents('.lists').removeClass('LISTS-ALL');
             $(this).parents('.lists').find('span').css({position:'static'});
+            $(this).prev('.option').css({overflow:'hidden',height:'32px'});
             $(this).find('b').css({color:'#666666'});
             $(this).find('img').removeClass('MORE-IMG');
             flag_more = true;
@@ -53,7 +55,16 @@ $(function(){
              flag_top = true;
         }
     })
-    
+    $('.appear').click(function(){
+        $(this).next().css({display:'inline-block'});
+        $(this).css({display:'none'});
+        $(this).parent('div').next().css({display:'inline-block'});
+    })
+    $('.disappear').click(function(){
+        $(this).prev().css({display:'inline-block'});
+        $(this).css({display:'none'});
+        $(this).parent('div').next().css({display:'none'});
+    })
     // 轮播
     $("#owl-companybanner").owlCarousel({
     autoPlay : 4000,
