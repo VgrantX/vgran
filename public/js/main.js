@@ -82,6 +82,45 @@ $(function(){
         $('.APP-SEARCH').find('li').removeClass('active');
         $('.APP-SEARCH').css({height:'auto',background:'none'});
     })
+    var flagCate = true;
+    $('.cateGory').click(function(){
+        if (flagCate) {
+            $(this).addClass('active');
+            $(this).next().css({display:'inline-block'});
+            flagCate = false;
+        }
+        else {
+            $(this).removeClass('active');
+            $(this).next().css({display:'none'});
+            flagCate = true;
+        }
+    })
+    var flag_true = true;
+    var flagcatelist = $('.category-lists');
+    flagcatelist.click(function(){
+        if(flag_true) {
+            $(this).find('.CATE-add').css({display:'none'})
+            $(this).find('.CATE-remove').css({display:'inline-block'});
+            flag_true = false;
+        }
+        else {
+            $(this).find('.CATE-add').css({display:'inline-block'})
+            $(this).find('.CATE-remove').css({display:'none'});
+            flag_true = true;
+        }
+    })
+
+    var flag_leibie = true;
+    $('.leibie').click(function(){
+        if (flag_leibie) {
+            $(this).next().css({display:'inline-block'});
+            flag_leibie = false;
+        }
+        else {
+            $(this).next().css({display:'none'});
+            flag_leibie = true;
+        }
+    })
     // 轮播
     $("#owl-companybanner").owlCarousel({
     autoPlay : 4000,
