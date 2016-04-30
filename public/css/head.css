@@ -521,6 +521,7 @@ li.MainNav_list.active {
 	padding: 10px 0;
 	margin-left: 10px;
 	color: #f5989d;
+	font-size: 14px;
 	border-bottom: 1px solid #e5e3e3;
 }
 .APP-SEARCH .TABLE-PANEL ul {
@@ -564,9 +565,7 @@ li.MainNav_list.active {
 .APP-SEARCH .TABLE-PANEL .category li.cateGory.active .cate-remove {
 	display: inline-block;
 }
-.APP-SEARCH .TABLE-PANEL .category .active {
 
-}
 .APP-SEARCH .TABLE-PANEL .category .active img.ARROWDOWN {
 	transform: rotate(180deg);
 	-ms-transform: rotate(180deg);		/* IE 9 */
@@ -576,6 +575,25 @@ li.MainNav_list.active {
 }
 .CATE-remove {
 	display: none;
+}
+.APP-SEARCH .TABLE-PANEL .cityCategorys {
+	padding: 15px;
+	border-bottom: 1px solid #e5e3e3;
+}
+.APP-SEARCH .TABLE-PANEL .cityCategorys span {
+	width: 100%;
+	display: inline-block;
+	height: 22px;
+	background: #e6e6e6;
+	color: #666666;
+}
+.APP-SEARCH .TABLE-PANEL .cityCategorys li {
+	border: none;
+    float: left;
+    width: 25%;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
 }
 @media screen and (max-width: 736px) {
 	/*APP－导航*/
