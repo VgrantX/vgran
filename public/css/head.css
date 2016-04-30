@@ -466,6 +466,57 @@ li.MainNav_list.active {
 .SEARCH .Options .lists span .option-box ul li {
 	margin-top: 5px;
 }
+
+/*手机端搜索*/
+.APP-SEARCH {
+	display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    /*height: 100%;*/
+    /*background: rgba(0,0,0,0.4); */
+}
+.APP-SEARCH ul li {
+	width: 25%;
+	float: left;
+	text-align: center;
+	height: 30px;
+	font-size: 14px;
+	background: #ffffff;
+	border-bottom: 1px solid #e2e0e0;
+	border-right: 1px solid #e2e0e0;
+	box-sizing: border-box;
+	padding-top: 5px;
+}
+.APP-SEARCH .TABLE-PANEL {
+	display: none;
+	width: 100%;
+	background: #ffffff;
+}
+.APP-SEARCH .TABLE-PANEL .Collapse {
+	width: 100%;
+	padding: 5px 0;
+	text-align: center;
+}
+.APP-SEARCH .active {
+	display: inline-block;
+}
+.APP-SEARCH ul li.active {
+	color: #f5989d;
+}
+.APP-SEARCH ul li .remove {
+	display: none;
+}
+.APP-SEARCH ul li.active .remove {
+	display: inline-block;
+}
+.APP-SEARCH ul li.active .add {
+	display: none;
+}
+.APP-SEARCH .TABLE-PANEL div p {
+	padding: 5px;
+	border-bottom: 1px solid #e2e0e0;
+}
 @media screen and (max-width: 736px) {
 	/*APP－导航*/
 	.HeaderTop {
@@ -487,5 +538,12 @@ li.MainNav_list.active {
 	.App-footer {
 		display: inline-block;
 		font-size: 12px;
+	}
+	/*搜索*/
+	.SEARCH {
+		display: none;
+	}
+	.APP-SEARCH {
+		display: block;
 	}
 }

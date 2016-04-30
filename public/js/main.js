@@ -1,4 +1,5 @@
 
+
 $(function(){
 	// 选项卡 导航
 	// var _option = $('.navigation .navigation-list');
@@ -64,6 +65,22 @@ $(function(){
         $(this).prev().css({display:'inline-block'});
         $(this).css({display:'none'});
         $(this).parent('div').next().css({display:'none'});
+    })
+    // 手机端搜索
+    // 选项卡
+    var _APPoption = $('.app-sel li');
+    _APPoption.click(function(){
+        $(this).addClass('active').siblings().removeClass('active');
+        $('.APP-SEARCH').css({height:'100%',background:'rgba(0,0,0,0.7)'});
+        var index = $(this).index();
+        var _APPTab = $(this).parents('.APP-SEARCH');
+        _APPTab.find('.TABLE-PANEL').removeClass('active');
+        $('.TABLE-PANEL:eq('+index+')',_APPTab).addClass('active');
+    });
+    $('.Collapse').click(function(){
+        $(this).parent('.TABLE-PANEL').removeClass('active');
+        $('.APP-SEARCH').find('li').removeClass('active');
+        $('.APP-SEARCH').css({height:'auto',background:'none'});
     })
     // 轮播
     $("#owl-companybanner").owlCarousel({

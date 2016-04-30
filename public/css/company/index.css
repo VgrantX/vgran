@@ -3,7 +3,7 @@
 	padding: 0 5%;
 }
 .main-title {
-	margin: 30px 0;
+	margin: 60px 0 30px 0;
 }
 /*详情*/
 .more {
@@ -39,7 +39,7 @@
 .panel .companyInfo {
 	float: left;
 	padding-left: 10px;
-	width: calc(100% - 115px);
+	width: calc(100% - 140px);
 }
 .panel .Portrait img {
 	width: 100%;
@@ -101,6 +101,10 @@
 	padding-top: 5px;
 }
 @media screen and (max-width: 736px) {
+	.panel .top .topR {
+		float: none;
+		display: block;
+	}
 	.panel .Portrait{
 		width: 115px;
 		height: 115px;
@@ -109,12 +113,20 @@
 		margin-top: 3px;
 		padding-top: 0;
 	}
+	.panel .shanchang {
+		display:inline-block;  text-overflow:ellipsis; white-space:nowrap; overflow:hidden;width: 100%;height: auto;
+	}
+	.panel .box-bottom .more {
+		display: none;
+	}
 	.advanced-box {
 		padding: 0 10px;
 	}
 	.panel {
 		padding: 10px 10px;
 	}
-
+	.panel .companyInfo {
+		width: calc(100% - 115px);
+	}
 }
 
