@@ -92,6 +92,7 @@
 	color: #333333;
 	border-radius: 20px;
 	margin-top: 15px;
+	display: inline-block;
 }
 
 .Font-line {
@@ -194,7 +195,7 @@
 		font-size: 14px;
 	}
 	.font-blue a {
-		font-size: 14px;
+		font-size: 16px;
 	}
 	.Features b {
 		margin-left: 0;
@@ -247,7 +248,7 @@
 		margin-top: 5px;
 	}
 	.INFOMATI {
-		margin: 7px 0;
+		margin: 10px 0 7px;
 		overflow: hidden;
 		white-space: nowrap;
 		text-overflow: ellipsis;

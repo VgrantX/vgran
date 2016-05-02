@@ -32,6 +32,13 @@ $(function(){
          $('.CITYMORELIST li .city span').css({background:'none',color:'#333333'});
         $(this).css({background:'#f5989d',color:'#ffffff'});
     })
+    // 图片高度
+    var _box_img = $('.box-model-img').width();
+    $('.box-model-img').height(_box_img/3*2);
+
+    var _box_img_same = $('.cattle-info-img').width();
+    $('.cattle-info-img').height(_box_img_same);
+    
 // 搜索
     var flag_more = true;
     var _MORE = $('.MORE');
