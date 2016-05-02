@@ -19,6 +19,19 @@ $(function(){
         $(this).addClass('active').siblings().removeClass('active');
         var index = $(this).index();
     })
+    //  城市展开全部
+    $('.cityMore').click(function(){
+        $('.cityMoreList').css({display:'inline-block'});
+        $('body').css({overflow:'hidden'});
+    })
+    $('.close2').click(function(){
+        $('.cityMoreList').css({display:'none'});
+        $('body').css({overflow:'auto'});
+    })
+    $('.CITYMORELIST li .city span').click(function(){
+         $('.CITYMORELIST li .city span').css({background:'none',color:'#333333'});
+        $(this).css({background:'#f5989d',color:'#ffffff'});
+    })
 // 搜索
     var flag_more = true;
     var _MORE = $('.MORE');

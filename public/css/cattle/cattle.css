@@ -107,4 +107,91 @@
 .panel .info .shanchan p {
 	margin-bottom: 10px;
 }
+.SEARCH .Options .lists .option .cityMore {
+	color: #f5989d;
+	margin-top: 15px;
+	cursor: pointer;
+}
+.cityMoreList {
+	display: none;
+}
+.cityMoreList {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background: rgba(0,0,0,0.5);
+}
+.cityMoreList .box {
+	width: calc(100% - 200px - 30%);
+	height: calc(100% - 40%);
+	margin-top: 10%;
+	margin-left: calc(200px + 15%);
+	background:#ffffff;
+}
+.cityMoreList .top {
+	width: 100%;
+	height: 65px;
+	background: #e6e6e6;
+	padding: 20px 10px;
+}
+.cityMoreList .top .left {
+	float: left;
+}
+.cityMoreList .top .right {
+	float: right;
+	cursor: pointer;
+}
+.cityMoreList .content {
+	width: 100%;
+	height: 100%;
+	overflow-y:scroll;
+}
+.cityMoreList .content ul {
+	margin-top: 10px;
+	padding: 10px;
+	display: inline-block;
+	width: 100%;
+}
+.cityMoreList .content ul li {
+	display: inline-block;
+	width: 100%;
+}
+.cityMoreList .content ul li .sheng {
+	width: 100px;
+	min-height: 1px;
+	float: left;
+	padding-top: 15px;
+	color: 16px;
+}
+
+.cityMoreList .content ul li .city {
+	width: calc(100% - 100px);
+	float: left;
+	min-height: 1px;
+}
+.cityMoreList .content ul li.active {
+	border-bottom: 1px solid #f5989d;
+}
+.cityMoreList .content ul li .city span {
+	font-size: 14px;
+	cursor: pointer;
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 10px;
+	color: #666666;
+}
+.cityMoreList .content ul li .city span.active {
+	color: #ffffff;
+	background: #f5989d;
+}
+
+
+
+
+
+
+
 
