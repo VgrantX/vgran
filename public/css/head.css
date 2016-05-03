@@ -76,12 +76,12 @@ li.MainNav_list.active {
 }
 
 .header-top-nav {
-	width: 35px;
-	height: 22px;
+	width: 25px;
+	height: 25px;
 	padding-top: 12px;
 }
 .header-top-nav img {
-	width: 60%;
+	width: 100%;
 }
 .arrow-top {
 	float: right;
@@ -108,7 +108,7 @@ li.MainNav_list.active {
 	position: absolute;
 	height: 0;
 	overflow: hidden;
-	top: 100px;
+	top: 70px;
 	right: 15px;
 	z-index: 200;
 	background:#3BBBF2;

@@ -38,7 +38,21 @@ $(function(){
 
     var _box_img_same = $('.cattle-info-img').width();
     $('.cattle-info-img').height(_box_img_same);
-    
+    // 搜索展开
+    $('.S_OPEN').click(function(){
+        $('.content').css({display:'none'});
+        $('.HeaderTopFixed').css({display:'none'});
+        $('.APP-SEARCH').css({display:'none'});
+        $('.newsSearch').css({display:'inline-block'});
+        $('.App-footer').css({position:'fixed',bottom:'0'});
+    })
+    $('.quxiao').click(function(){
+         $('.content').css({display:'inline-block'});
+        $('.HeaderTopFixed').css({display:'inline-block'});
+        $('.APP-SEARCH').css({display:'inline-block'});
+        $('.newsSearch').css({display:'none'});
+        $('.App-footer').css({position:'static',bottom:'0'});
+    })
 // 搜索
     var flag_more = true;
     var _MORE = $('.MORE');

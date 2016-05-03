@@ -1,0 +1,74 @@
+.newsSearch {
+	background: #ffffff;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: calc(100% - 100px);
+	z-index: 9999;
+	display: none;
+}
+.s-rukou {
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    top: 12px;
+    left: 58px;
+    z-index: 100;
+}
+.s-rukou img {
+	width: 100%;
+}
+
+.appsearch {
+	height: 50px;
+	width: 100%;
+	background: #29abe2;
+	padding: 5px 10px;
+	color: #ffffff;
+}
+.sousuo-icon {
+	position: absolute;
+	top: 17px;
+	left: 20px;
+	z-index: 10;
+}
+.appButton {
+	display: inline-block;
+	position: absolute;
+	right: 55px;
+	top: 5px;
+	background: #e6e6e6;
+	color: #333333;
+	border-radius: 20px;
+	border: none;
+	width: 70px;
+	height: 40px;
+}
+.appsearch input {
+	width: calc(100% - 45px);
+	height: 40px;
+	padding-left: 30px;
+	border-radius: 20px;
+	border: none;
+	background: #47c5fa;
+}
+.jieguo li {
+	cursor: pointer;
+	height: 40px;
+	padding-left: 15px;
+	padding-top: 10px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.cookies {
+	color: #ff2a2a;
+	text-align: center;
+	margin-top: 20px;
+	cursor: pointer;	
+}
+.appsearch input::-webkit-input-placeholder{color:#b9eafe;}
+.appsearch input::-moz-placeholder{color:#b9eafe;}
+.appsearch input:-ms-input-placeholder{color:#b9eafe;}
+.appsearch input:-moz-placeholder{color:#b9eafe;}
+.quxiao {
+	cursor: pointer;
+}
