@@ -32,6 +32,9 @@
 .CATTLE-people-info {
 	color: #999999;
 }
+.CATTLE-people .Features {
+		float: right;
+}
 /*人物信息*/
 .PortraitIMG {
 	border: 2px solid #000000;
@@ -64,7 +67,7 @@
 .Introduction .IntroductionFont {
 	margin-top: 0px;
 	color: #333333;
-	width: 100%;
+	/*width: 100%;*/
 	display: inline-block;
 }
 .IntroductionFont div {
@@ -196,6 +199,9 @@
     width: 28px;
 }
 @media screen and (max-width: 736px) {
+	.Introduction .IntroductionFont {
+		width: 100%;
+	}
 	.CATTLE-people-infomation .font-blue a {
 	font-size: 16px;
 	color: #29abe2;
@@ -291,6 +297,7 @@
 	.font-red {
 		font-size: 16px;
 	}
+
 }
 
 
