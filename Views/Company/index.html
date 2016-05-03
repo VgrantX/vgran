@@ -36,6 +36,51 @@
 	<link rel="stylesheet" href="../../public/css/search.css">
 </head>
 <body>
+<!-- city数据 -->
+<div class="cityMoreList">
+	<div class="box">
+		<div class="top">
+			<span class="left">选择城市</span>
+			<span class="close2 right"><img src="../../public/images/header/CLOSE2.png" alt=""></span>
+		</div>
+		<div class="content">
+			<ul class="CITYMORELIST">
+				<li class="active">
+					<div class="sheng">
+						热门城市：
+					</div>
+					<div class="city">
+						<span class="active">上海</span>
+						<span>上海</span>
+						<span>上海</span>
+						<span>上海</span>
+						<span>上海</span>
+					</div>
+				</li>
+				<li>
+					<div class="sheng">
+						上海：
+					</div>
+					<div class="city">
+						<span>上海</span>
+						<span>上海</span>
+						<span>上海</span>
+						<span>上海</span>
+						<span>上海</span>
+						<span>上海</span>
+						<span>上海</span>
+						<span>上海</span>
+						<span>上海</span>
+						<span>上海</span>
+						<span>上海</span>
+						<span>上海</span>
+						<span>上海</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
 <div class="newsSearch">
 	<!-- 搜索 -->
 	<div class="appsearch">
@@ -263,10 +308,10 @@
 						<div class="Options">
 							<div class="lists">
 								<div class="list-option">
-									<b>职位类别：</b>
+									<b class="list-op-b">职位类别：</b>
 								</div>
 								<div class="option">
-									<span class="active">全部</span>
+									<span class="optionActive active">全部</span>
 									<span>
 										计算机/互联网
 										<div class="option-box">
@@ -275,7 +320,7 @@
 												<img class="disappear" src="../../public/images/header/remove.png" alt="">
 												<b>IT-品管，技术支持及其他</b>
 											</div>
-											<ul>
+											<ul class="zhiweiClass">
 												<li>
 													 <input type="radio" name="sex" value="male" />
 													 IT-品管，技术支持及其他
@@ -298,7 +343,7 @@
 												<img class="disappear" src="../../public/images/header/remove.png" alt="">
 												<b>IT-品管，技术支持及其他</b>
 											</div>
-											<ul>
+											<ul class="zhiweiClass">
 												<li>
 													 <input type="radio" name="sex" value="male" />
 													 IT-品管，技术支持及其他
@@ -321,7 +366,7 @@
 												<img class="disappear" src="../../public/images/header/remove.png" alt="">
 												<b>IT-品管，技术支持及其他</b>
 											</div>
-											<ul>
+											<ul  class="zhiweiClass">
 												<li>
 													 <input type="radio" name="sex" value="male" />
 													 IT-品管，技术支持及其他
@@ -348,7 +393,7 @@
 												<img class="disappear" src="../../public/images/header/remove.png" alt="">
 												<b>IT-品管，技术支持及其他</b>
 											</div>
-											<ul>
+											<ul class="zhiweiClass">
 												<li>
 													 <input type="radio" name="sex" value="male" />
 													 IT-品管，技术支持及其他
@@ -371,7 +416,7 @@
 												<img class="disappear" src="../../public/images/header/remove.png" alt="">
 												<b>IT-品管，技术支持及其他</b>
 											</div>
-											<ul>
+											<ul  class="zhiweiClass">
 												<li>
 													 <input type="radio" name="sex" value="male" />
 													 IT-品管，技术支持及其他
@@ -394,7 +439,7 @@
 												<img class="disappear" src="../../public/images/header/remove.png" alt="">
 												<b>IT-品管，技术支持及其他</b>
 											</div>
-											<ul>
+											<ul class="zhiweiClass">
 												<li>
 													 <input type="radio" name="sex" value="male" />
 													 IT-品管，技术支持及其他
@@ -422,9 +467,9 @@
 							</div>
 							<div class="lists">
 								<div class="list-option">
-									<b>所在城市：</b>
+									<b class="list-op-b teshuCity">所在城市：</b>
 								</div>
-								<div class="option">
+								<div class="option optionSpan">
 									<span class="active">不限</span>
 									<span>北京</span>
 									<span>武汉</span>
@@ -450,6 +495,7 @@
 									<span>武汉</span>
 									<span>上海</span>
 									<span>广州</span>
+									<p class="cityMore">查看更多</p>
 								</div>
 								<div class="MORE">
 									<b class="">更多</b>
@@ -459,9 +505,9 @@
 							
 							<div class="lists">
 								<div class="list-option">
-									<b>企业性质：</b>
+									<b class="list-op-b">企业性质：</b>
 								</div>
-								<div class="option">
+								<div class="option optionSpan">
 									<span class="active">不限</span>
 									<span>上市公司</span>
 									<span>国家机关</span>
@@ -477,9 +523,9 @@
 							</div>
 							<div class="lists">
 								<div class="list-option">
-									<b>企业规模：</b>
+									<b class="list-op-b">企业规模：</b>
 								</div>
-								<div class="option">
+								<div class="option optionSpan">
 									<span class="active">不限</span>
 									<span>北京</span>
 								</div>

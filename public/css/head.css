@@ -373,6 +373,10 @@ li.MainNav_list.active {
 	color: #666666;
 	margin-right: 5px;
 }
+.SEARCH .Options .lists .list-op-b {
+	width: 80px;
+	display: inline-block;
+}
 .SEARCH .Options .lists span {
 	color: #999999;
 	cursor: pointer;

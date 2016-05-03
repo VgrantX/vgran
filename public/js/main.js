@@ -14,10 +14,31 @@ $(function(){
         $(this).next().addClass('MainNav_listsActive').siblings().removeClass('MainNav_listsActive');
     });
     // 选项
-    var _option = $('.option span');
+     var _option = $('.option span');
     _option.click(function(){
         $(this).addClass('active').siblings().removeClass('active');
-        var index = $(this).index();
+    })
+
+    // 内容替换
+    var _optionSpan = $('.optionSpan span');
+    _optionSpan.click(function(){
+        var searchContent = $(this).text();
+        $(this).parents('.lists').find('.list-option b').text(searchContent);
+    })
+    // 特殊职业类别
+    var _zhiweiClass = $('.zhiweiClass li');
+    _zhiweiClass.click(function(){
+        var searchContentTop = $(this).text();
+        $(this).parents('.lists').find('.list-option b').text(searchContentTop);
+    })
+    $('.optionActive').click(function(){
+        var searchContentTop = $(this).text();
+        $(this).parents('.lists').find('.list-option b').text(searchContentTop);
+    })
+    // city的内容替换
+     $('.CITYMORELIST span').click(function(){
+        var _CITYMORELIST  = $(this).text();
+        $('.teshuCity').text(_CITYMORELIST);
     })
     //  城市展开全部
     $('.cityMore').click(function(){
