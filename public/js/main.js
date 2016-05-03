@@ -122,9 +122,12 @@ $(function(){
         $(this).parent('div').next().css({display:'none'});
     })
     // 手机端搜索
+
     // 选项卡
     var _APPoption = $('.app-sel li');
     _APPoption.click(function(){
+        $('.arrow-top').removeClass('PortraitImg');
+        $('.MainLogin').css({height:0});
         $(this).addClass('active').siblings().removeClass('active');
         $('.APP-SEARCH').css({height:'100%',background:'rgba(0,0,0,0.7)'});
         var index = $(this).index();
@@ -137,44 +140,52 @@ $(function(){
         $('.APP-SEARCH').find('li').removeClass('active');
         $('.APP-SEARCH').css({height:'auto',background:'none'});
     })
-    var flagCate = true;
-    $('.cateGory').click(function(){
-        if (flagCate) {
-            $(this).addClass('active');
-            $(this).next().css({display:'inline-block'});
-            flagCate = false;
-        }
-        else {
-            $(this).removeClass('active');
-            $(this).next().css({display:'none'});
-            flagCate = true;
-        }
-    })
-    var flag_true = true;
-    var flagcatelist = $('.category-lists');
-    flagcatelist.click(function(){
-        if(flag_true) {
-            $(this).find('.CATE-add').css({display:'none'})
-            $(this).find('.CATE-remove').css({display:'inline-block'});
-            flag_true = false;
-        }
-        else {
-            $(this).find('.CATE-add').css({display:'inline-block'})
-            $(this).find('.CATE-remove').css({display:'none'});
-            flag_true = true;
-        }
-    })
 
-    var flag_leibie = true;
+    // 手机端高级搜索下啦菜单
+    $('.category .cateGory').click(function(){
+        $(this).addClass('active').siblings().removeClass('active');
+        $(this).next('.category-list').addClass('show-con').siblings('.category-list').removeClass('show-con');
+    });
+    // 手机端城市搜索
+    $('.AppCity li').click(function(){
+        $('.AppCity li').removeClass('active');
+        $(this).addClass('active');
+        var _AppCityCon  = $(this).find('span').text();
+        $('.AppCityTop').text(_AppCityCon);
+    })
+    // 手机端薪资待遇/经验
+    $('.AppTime p').click(function(){
+        $(this).css({color:'#f5989d'}).siblings().css({color:'#333333'});
+        var _AppTimeCon  = $(this).text();
+        $('.AppTimeTop').text(_AppTimeCon);
+    })
+    $('.AppMoney p').click(function(){
+        $(this).css({color:'#f5989d'}).siblings().css({color:'#333333'});
+        var _AppMoneyCon  = $(this).text();
+        $('.AppMoneyTop').text(_AppMoneyCon);
+    })
+// 职业类别选项
+    $('.category-list .category-lists').click(function(){
+        $(this).addClass('active').siblings().removeClass('active');
+        var _AppJobsCon  = $(this).text();
+        $('.AppJobsTop').text(_AppJobsCon);
+    })
+    // var flag_true = true;
+    // var flagcatelist = $('.category-lists');
+    // flagcatelist.click(function(){
+    //     if(flag_true) {
+    //         $(this).find('.CATE-add').css({display:'none'})
+    //         $(this).find('.CATE-remove').css({display:'inline-block'});
+    //         flag_true = false;
+    //     }
+    //     else {
+    //         $(this).find('.CATE-add').css({display:'inline-block'})
+    //         $(this).find('.CATE-remove').css({display:'none'});
+    //         flag_true = true;
+    //     }
+    // })
     $('.leibie').click(function(){
-        if (flag_leibie) {
-            $(this).next().css({display:'inline-block'});
-            flag_leibie = false;
-        }
-        else {
-            $(this).next().css({display:'none'});
-            flag_leibie = true;
-        }
+        $(this).addClass('active').siblings().removeClass('active');
     })
     // 轮播
     $("#owl-companybanner").owlCarousel({
@@ -259,9 +270,12 @@ $(function(){
     var flag = true;
     $(".header-top-nav").click(function(){
         if(flag){
+            $('.TABLE-PANEL').removeClass('active');
+            $('.APP-SEARCH li').removeClass('active');
+            $('.APP-SEARCH').css({height:'auto'})
+            $('.MainNav').css({height:1});
           $(".MainNav").css({height:"auto"});
           $(".MainLogin").css({height:0});
-          // $('.arrow-top').removeClass('PortraitImg');
           flag = false;
         }else{
           $(".MainNav").css({height:0});
@@ -272,6 +286,10 @@ $(function(){
     var flag_login = true;
     $(".arrow-top").click(function(){
       if(flag_login){
+            $('.TABLE-PANEL').removeClass('active');
+            $('.APP-SEARCH li').removeClass('active');
+            $('.APP-SEARCH').css({height:'auto'})
+            $('.MainNav').css({height:1});
           $('.arrow-top').addClass('PortraitImg');
           $(".MainLogin").css({height:120});
           $(".MainNav").css({height:0});
