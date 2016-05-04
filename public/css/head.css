@@ -520,6 +520,7 @@ li.MainNav_list.active {
 .APP-SEARCH .TABLE-PANEL div p {
 	padding: 5px;
 	border-bottom: 1px solid #e2e0e0;
+	font-size:14px;
 }
 .APP-SEARCH .TABLE-PANEL .leibie p {
 	padding: 10px 0;
@@ -537,6 +538,8 @@ li.MainNav_list.active {
 .APP-SEARCH .TABLE-PANEL div .city {
 	padding-left: 10px;
 	padding-top: 10px;
+	font-size:14px;
+	color:#f5989d;
 }
 .APP-SEARCH .TABLE-PANEL ul {
 	width: 100%;
@@ -630,6 +633,8 @@ li.MainNav_list.active {
     text-align: center;
 }
 @media screen and (max-width: 736px) {
+    .panel .info .font-blue a{font-size:18px;}
+	.info{margin-top:10px;}
 	/*APP－导航*/
 	.HeaderTop {
 		display: block;

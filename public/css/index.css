@@ -105,6 +105,14 @@
 }
 
 @media screen and (max-width: 736px) {
+	
+	
+	 
+	 .font-a a{
+    font-size: 14px;
+   
+}    .shanchang b{font-weight:500;}
+     .panel{ margin-bottom:10px;}
 	.info-box {
 		padding: 15px 0;
 	}
