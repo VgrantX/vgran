@@ -140,11 +140,18 @@ $(function(){
         $('.APP-SEARCH').find('li').removeClass('active');
         $('.APP-SEARCH').css({height:'auto',background:'none'});
     })
+    // 
 
     // 手机端高级搜索下啦菜单
     $('.category .cateGory').click(function(){
         $(this).addClass('active').siblings().removeClass('active');
+        $(this).find('.cate-add').css({display:'none'}).siblings().find('.cate-add').css({display:'inline-block'});
+        $(this).find('.cate-remove').css({display:'inline-block'}).siblings().find('.cate-remove').css({display:'none'})
+        $('.category-list').find('.category-lists').removeClass('active');
         $(this).next('.category-list').addClass('show-con').siblings('.category-list').removeClass('show-con');
+        // 。内容替换
+        var _AppJobsCon  = $(this).text();
+        $('.AppJobsTop').text(_AppJobsCon);
     });
     // 手机端城市搜索
     $('.AppCity li').click(function(){
@@ -167,23 +174,14 @@ $(function(){
 // 职业类别选项
     $('.category-list .category-lists').click(function(){
         $(this).addClass('active').siblings().removeClass('active');
+        // 取消上一级选中框
+        $(this).parent('.category-list').prev('.cateGory').find('.cate-add').css({display:'inline-block'});
+        $(this).parent('.category-list').prev('.cateGory').find('.cate-remove').css({display:'none'});
+        // 内容替换
         var _AppJobsCon  = $(this).text();
         $('.AppJobsTop').text(_AppJobsCon);
-    })
-    // var flag_true = true;
-    // var flagcatelist = $('.category-lists');
-    // flagcatelist.click(function(){
-    //     if(flag_true) {
-    //         $(this).find('.CATE-add').css({display:'none'})
-    //         $(this).find('.CATE-remove').css({display:'inline-block'});
-    //         flag_true = false;
-    //     }
-    //     else {
-    //         $(this).find('.CATE-add').css({display:'inline-block'})
-    //         $(this).find('.CATE-remove').css({display:'none'});
-    //         flag_true = true;
-    //     }
-    // })
+    });
+
     $('.leibie').click(function(){
         $(this).addClass('active').siblings().removeClass('active');
     })
