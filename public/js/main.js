@@ -289,7 +289,7 @@ $(function(){
             $('.APP-SEARCH').css({height:'auto'})
             $('.MainNav').css({height:1});
           $('.arrow-top').addClass('PortraitImg');
-          $(".MainLogin").css({height:120});
+          $(".MainLogin").css({height:80});
           $(".MainNav").css({height:0});
           flag_login = false;
         }else{

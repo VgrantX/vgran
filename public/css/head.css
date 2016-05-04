@@ -118,8 +118,8 @@ li.MainNav_list.active {
 	-o-transition: all 0.5s;	/* Opera */
 }
 .MainLogin li {
-	height: 60px;
-	padding-top: 15px;
+	height: 40px;
+	padding-top: 10px;
 	color: #ffffff;
 	border-bottom: 1px solid #29abe2;
 	text-align: center;

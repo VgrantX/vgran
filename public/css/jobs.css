@@ -119,6 +119,14 @@
 .CompanyImg img {
 	width: 100%;
 }
+.JobsMore {
+	padding: 5px 15px;
+	display: inline-block;
+	border-radius: 5px;
+	background: #f68f8f;
+	color: #ffffff;
+	margin: 20px 0;
+}
 @media screen and (max-width: 736px) {
 	.ReturnPage {
 		display: none;

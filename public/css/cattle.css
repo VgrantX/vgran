@@ -108,6 +108,10 @@
 	margin-top: 200px;
 }
 
+.Features {
+	position: absolute;
+	right: 20px;
+}
 
 @media screen and (max-width: 736px) {
 	.ReturnPage {
