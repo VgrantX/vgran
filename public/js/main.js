@@ -65,11 +65,15 @@ $(function(){
         $('.company-owl-img-a').height(comopany_owl*0.47);
     }, 100);
 
+    setInterval(function(){
+    var _ContentImg = $('.ContentImg').width();
+    $('.ContentImg').height(_ContentImg*0.78);
+    }, 100);
 
-    //  setInterval(function(){
-    // var _content_img = $('.content-img').width();
-    // $('.content-img').height(_content_img*0.78);
-    // }, 100);
+     setInterval(function(){
+    var _content_img = $('.con_Img_list').width();
+    $('.con_Img_list').height(_content_img*0.73);
+    }, 100);
 
 
     // 搜索展开
