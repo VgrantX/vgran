@@ -191,6 +191,7 @@
 .share-img{width:15px;}
 .add-info-img{width:16px;}
 @media screen and (max-width: 736px) {
+	/**/
 	.CATTLE-company .font-blue .font-red {
 		font-size: 14px;
 	}

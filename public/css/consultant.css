@@ -1,6 +1,6 @@
 /*详情页*/
 .CATTLE {
-	padding: 0 5px;
+	padding: 0 20px;
 }
 
 /*简介*/
@@ -199,24 +199,31 @@
     width: 28px;
 }
 @media screen and (max-width: 736px) {
+	/*详情页*/
+	.CATTLE {
+		padding: 0 10px;
+	}
+
 	.Introduction .IntroductionFont {
 		width: 100%;
 	}
 	.CATTLE-people-infomation .font-blue a {
-	font-size: 16px;
-	color: #29abe2;
-}
-    .FontH1{font-size:16px;
-			width: 150px;
-			height: 40px;
-			padding-top: 8px;}
+		font-size: 16px;
+		color: #29abe2;
+	}
+    .FontH1{
+    	font-size:16px;
+		width: 150px;
+		height: 40px;
+		padding-top: 8px;
+	}
 	.PortraitIMG {
-    border: 2px solid #000000;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
+	    border: 2px solid #000000;
+	    width: 100px;
+	    height: 100px;
+	    border-radius: 50%;
+	    margin: 0 auto;
+	}
 	.triangle {
 		top: -14px;
 		left: -5px;
@@ -237,9 +244,7 @@
 	}
 	.CATTLE-people-info {
 		border-radius: 10px;
-	}
-	.CATTLE-people-info {
-		padding: 15px;
+		padding: 10px;
 	}
 	.IntroductionFont div {
 		float: none;
@@ -265,14 +270,14 @@
 		z-index: 100;
 	}
 	.remove-info {
-		margin-left: 40px;
+		margin-left: 20px;
 		margin-right: 0;
 		position: relative;
 		z-index: 100;
 	}
 	.CATTLE-company {
 		overflow: hidden;
-		height: 55px;
+		height: 50px;
 		background: #f0f0f0;
 		padding: 13px 10px 13px 20px;
 	}
@@ -283,6 +288,7 @@
 		display: none;
 	}
 	.Application {
+		margin-top: 80px;
 		padding: 0 2px;
 	}
 	.search img {
@@ -290,12 +296,12 @@
 		width:18px;
 	}
 	.font-h5 {
-		display: block;
 		margin-top: 15px;
 		margin-left: 15px;
 	}
 	.font-red {
 		font-size: 16px;
+		margin-top: 15px;
 	}
 
 }

@@ -94,3 +94,12 @@
 	border: 1px solid #55a8fd;
 	background:#55a8fd;
 	}
+@media screen and (max-width: 736px) {
+	.advanced-box {
+		padding: 0 10px;
+	}
+}
+
+
+
+

@@ -1,6 +1,6 @@
 /*详情页*/
 .CATTLE {
-	padding: 0 5px;
+	padding: 0 20px;
 }
 .ReturnPage {
 	background: #ffffff;
@@ -128,6 +128,9 @@
 	margin: 20px 0;
 }
 @media screen and (max-width: 736px) {
+	.CATTLE {
+		padding: 0 10px;
+	}
 	.ReturnPage {
 		display: none;
 	}

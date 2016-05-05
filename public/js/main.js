@@ -232,7 +232,7 @@ $(function(){
     $('.remove-info').click(function(){
             $(this).prev().css({display:'inline-block'});
             $(this).css({display:'none'});
-            $(this).parents('.CATTLE-company').css({height:'55px',background:'#f0f0f0',overflow:'hidden'});
+            $(this).parents('.CATTLE-company').css({height:'50px',background:'#f0f0f0',overflow:'hidden'});
     })
     // 收藏
     $('.add-info-img').click(function(){

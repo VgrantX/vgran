@@ -406,8 +406,8 @@ a:hover {
 	margin-top: 5px;
 }
 .share .info div {
-	padding: 40px 56px;
-	
+	text-align: center;
+	padding: 40px 0;
 }
 .share .info div a {
     margin-right: 10px;
@@ -450,11 +450,17 @@ a:hover {
 	line-height: 40px;
 	font-size:14px;
 }
+.WORK a {
+	color: #ffffff;
+}
 @media screen and (max-width: 736px) {
-/*	.share .info {
-		right: -20px;
-	}*/
 	.add-info-img,.remove-info-img {
 		width: 15px;
+	}	
+	.share .info{
+		width: calc(100% - 20px);
+		position: fixed;
+		top: calc(100% - 300px);
+		left: 10px;
 	}
 }
