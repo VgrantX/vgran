@@ -186,6 +186,9 @@
 	.panel .top .font-h1 {
 		width: 100%;
 	}
+	.panel .box-bottom span {
+		width: 100%;
+	}
 	.panel .top .topR {
 		float: none;
 		display: block;

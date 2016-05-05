@@ -239,10 +239,13 @@
 	}
 	.CATTLE-company {
 		overflow: hidden;
-		height: 55px;
+		height: 50px;
 		background: #f0f0f0;
 		padding: 10px 15px;
 		margin-bottom: 15px;
+	}
+	.Features {
+		margin-top: 5px;
 	}
 	.CATTLE-company .font-blue span {
 		margin: 0;
@@ -255,7 +258,9 @@
 		text-overflow: ellipsis;
 	}
 	.Application {
-		margin-top: 100px;
+		position: absolute;
+		top: -5px;
+		right: 5px;
 	}
 	.add-info {
 		display: inline-block;

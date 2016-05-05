@@ -55,10 +55,19 @@ $(function(){
     })
     // 图片高度
     var _box_img = $('.box-model-img').width();
-    $('.box-model-img').height(_box_img/3*2);
+    $('.box-model-img').height(_box_img*0.558);
 
     var _box_img_same = $('.cattle-info-img').width();
     $('.cattle-info-img').height(_box_img_same);
+
+    var comopany_owl = $('.company-owl-img-a').width();
+    $('.company-owl-img-a').height(comopany_owl/2);
+
+     var _content_img = $('.content-img').width();
+    $('.content-img').height(_content_img*0.78);
+
+    
+
     // 搜索展开
     $('.S_OPEN').click(function(){
         $('.content').css({display:'none'});

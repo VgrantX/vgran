@@ -13,6 +13,11 @@
 	overflow: hidden;
 	position: relative;
 }
+.company-owl-img-a{
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
 .company-owl-img-a img {
 	width: 100%;
 }
@@ -68,7 +73,7 @@
 	overflow: hidden;
 }
 .box-model-content img {
-	width: 120%;
+	width: 100%;
 }
 .companybanner {
 		padding:15px;

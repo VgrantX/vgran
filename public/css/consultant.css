@@ -260,7 +260,10 @@
 		margin-top: 20px;
 	}
 	.CATTLE-people-infomation p,.recommend {
-		margin-top: 10px;
+		margin-top: 5px;
+	}
+	.recommend {
+		width: 80%;
 	}
 	.add-info {
 		display: inline-block;
@@ -288,8 +291,10 @@
 		display: none;
 	}
 	.Application {
-		margin-top: 80px;
+		margin-top: 100px;
 		padding: 0 2px;
+		position: absolute;
+		right: 10px;
 	}
 	.search img {
 		right: 5px;
@@ -299,7 +304,7 @@
 		margin-top: 15px;
 		margin-left: 15px;
 	}
-	.font-red {
+	.CATTLE-people-infomation p.font-red {
 		font-size: 16px;
 		margin-top: 15px;
 	}
