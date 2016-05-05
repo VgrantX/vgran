@@ -60,11 +60,11 @@ $(function(){
     var _box_img_same = $('.cattle-info-img').width();
     $('.cattle-info-img').height(_box_img_same);
 
-    var comopany_owl = $('.company-owl-img-a').width();
-    $('.company-owl-img-a').height(comopany_owl/2);
+    // var comopany_owl = $('.company-owl-img-a').width();
+    // $('.company-owl-img-a').height(comopany_owl/2);
 
-     var _content_img = $('.content-img').width();
-    $('.content-img').height(_content_img*0.78);
+    //  var _content_img = $('.content-img').width();
+    // $('.content-img').height(_content_img*0.78);
 
     
 
