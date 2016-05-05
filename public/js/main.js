@@ -66,10 +66,10 @@ $(function(){
     }, 100);
 
 
-     setInterval(function(){
-    var _content_img = $('.content-img').width();
-    $('.content-img').height(_content_img*0.78);
-    }, 100);
+    //  setInterval(function(){
+    // var _content_img = $('.content-img').width();
+    // $('.content-img').height(_content_img*0.78);
+    // }, 100);
 
 
     // 搜索展开
