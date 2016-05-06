@@ -22,14 +22,41 @@ $(function(){
     // 内容替换
     var _optionSpan = $('.optionSpan span');
     _optionSpan.click(function(){
-        var searchContent = $(this).text();
-        $(this).parents('.lists').find('.list-option b').text(searchContent);
+        $('.lists').removeClass('LISTS-ALL');
+        $('.option').css({height:'32px',overflow:'hidden'});
+        $('.MORE b').css({color:'#999999'});
+        // $('.MORE img').removeCLass('MORE-IMG');
+        // var searchContent = $(this).text();
+        // $(this).parents('.lists').find('.list-option b').text(searchContent);
     })
+
+    // 内容替换
+    
+    
+    $('.JOBS-click li').click(function(){
+        var _JOBS_click = $(this).text();
+        $('.change-JOBS').text(_JOBS_click);
+    })
+
+    $('.CITY-click span').click(function(){
+        var _CITY_click = $(this).text();
+        $('.change-CITY').text(_CITY_click);
+    })
+    
+    $('.MOUDLE_click span').click(function(){
+        var _MOUDLE_click = $(this).text();
+        $('.change-MOUDLE').text(_MOUDLE_click);
+    })
+    $('.COMPANY-click span').click(function(){
+        var _COMPANY_click = $(this).text();
+        $('.change-COMPANY').text(_COMPANY_click);
+    })
+
     // 特殊职业类别
     var _zhiweiClass = $('.zhiweiClass li');
     _zhiweiClass.click(function(){
-        var searchContentTop = $(this).text();
-        $(this).parents('.lists').find('.list-option b').text(searchContentTop);
+        // var searchContentTop = $(this).text();
+        // $(this).parents('.lists').find('.list-option b').text(searchContentTop);
     })
     $('.optionActive').click(function(){
         var searchContentTop = $(this).text();
@@ -37,8 +64,17 @@ $(function(){
     })
     // city的内容替换
      $('.CITYMORELIST span').click(function(){
-        var _CITYMORELIST  = $(this).text();
-        $('.teshuCity').text(_CITYMORELIST);
+        $('.CITY-click span').css({background:'none',color:'#999999'});
+        $('.CITYMORELIST span').css({background:'none',color:'#999999'});
+        $('.COMPANY-click span').css({background:'none',color:'#999999'});
+        $(this).css({background:'#f5989d',color:'#ffffff'});
+        $('.cityMoreList').css({display:'none'});
+        $('.lists').removeClass('LISTS-ALL');
+        $('.option').css({height:'32px',overflow:'hidden'});
+        $('.MORE b').css({color:'#999999'});
+        // $('.MORE img').removeCLass('MORE-IMG');
+        var _CITYMORELIST = $(this).text();
+        $('.change-CITY').text(_CITYMORELIST);
     })
     //  城市展开全部
     $('.cityMore').click(function(){
@@ -48,10 +84,6 @@ $(function(){
     $('.close2').click(function(){
         $('.cityMoreList').css({display:'none'});
         $('body').css({overflow:'auto'});
-    })
-    $('.CITYMORELIST li .city span').click(function(){
-         $('.CITYMORELIST li .city span').css({background:'none',color:'#333333'});
-        $(this).css({background:'#f5989d',color:'#ffffff'});
     })
     // 图片高度
     var _box_img = $('.box-model-img').width();

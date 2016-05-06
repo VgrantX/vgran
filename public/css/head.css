@@ -388,6 +388,7 @@ li.MainNav_list.active {
 	padding: 5px;
 	display: inline-block;
 	font-size:14px;
+	margin-bottom: 5px;
 }
 .SEARCH .Options .lists span:hover {
 	background: #f5989d;
@@ -434,6 +435,7 @@ li.MainNav_list.active {
 	margin: 0 -20px;
 	padding: 20px;
 	right: 0;
+	z-index: 20;
 }
 /*高级搜索*/
 .SESARCH-TOP input {
@@ -477,7 +479,14 @@ li.MainNav_list.active {
 .SEARCH .Options .lists span .option-box ul li {
 	margin-top: 5px;
 }
-
+.z-s-change {
+    margin-top: 20px;
+    color: #999999;
+    font-size: 14px;
+}
+.z-s-change span {
+	margin-right: 20px;
+}
 /*手机端搜索*/
 .APP-SEARCH {
 	display: none;
