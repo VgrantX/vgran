@@ -433,6 +433,7 @@ li.MainNav_list.active {
 	top: -5px;
 	margin: 0 -20px;
 	padding: 20px;
+	right: 0;
 }
 /*高级搜索*/
 .SESARCH-TOP input {
