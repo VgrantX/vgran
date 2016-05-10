@@ -7,17 +7,12 @@
 	margin-top: 700px;
 	}
 }
-.App-footer {
-	width: 100%;
-	position: fixed;
-	bottom: 0;
-}
 /*登录*/
 .LoginBbox {
 	width: calc(100% - 50%);
-	min-width: 500px;
-	max-width: 800px;
-	height: 535px;
+	/*min-width: 500px;*/
+	/*max-width: 800px;*/
+	/*height: 535px;*/
 	background: #ffffff;
 	margin: 50px auto;
 	box-shadow: 0 4px 20px rgba(0,0,0,0.3);
@@ -95,20 +90,23 @@
 .SignuBox {
 	margin: 50px auto;
 	width: calc(100% - 20%);
+	min-width: 600px;
 	background: #ffffff;
 	box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-	height: 720px;
-	padding: 40px 5%;
+	padding: 40px 0;
 }
 .SignuBox .sign-tit {
 	width: 100%;
 	display: inline-block;
+	padding: 0 10%;
 	text-align: center;
 	color: #999999;
 	font-size: 18px;
 }
 .SignuBox .sign-tit li {
 	cursor: pointer;
+	float: left;
+	width: calc(100%/3);
 	padding: 20px 0;
 }
 .SignuBox .sign-tit li a{
@@ -162,8 +160,154 @@ button.btn-default:hover {
 	border: none;
 	color: #ffffff;
 }
+/*忘记密码*/
+.forgetBox {
+	margin: 50px auto;
+	width: calc(100% - 20%);
+	min-width: 600px;
+	max-width: 1440px;
+}
+.Proofread {
+	color: #999999;
+	font-size: 12px;
+	padding-top: 5px;
+}
+.Proofread span {
+	color: #b90303;
+	cursor: pointer;
+}
+.forgetBox .FORGET {
+	box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+	background: #ffffff;
+	border: 5px solid #fc9ca1;
+	
+}
+.Login-con {
+	width: 500px;
+	margin: 60px auto;
+	margin-left: calc(50% - 250px);
+	padding: 0;
+	display: inline-block;
+}
+.FORGET .sign-tit {
+	padding: 70px 5% 0 5%;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color: #999999;
+}
+.FORGET .sign-tit li {
+	padding-bottom: 20px;
+	font-size-adjust: 18px;
+	border-bottom: 5px solid #e9e9e9;
+}
+.FORGET .sign-tit li img {
+	margin-right: 10px;
+}
+
+.FORGET .sign-tit li.active {
+	border-bottom: 5px solid #fc9ca1;
+	color: #333333;
+}
+.FORGET .btn-signup {
+	background: #f26c4f;
+}
+.FORGET .btn-signup a {
+	color: #ffffff;
+}
+.FORGET .btn-signup:hover {
+	background: #f26c4f;
+	color: #ffffff;
+}
+.FORGET .btn-YAN {
+	border-radius: 0;
+	background: #ffffff;
+	border: 1px solid #cccccc;
+}
+
+.forget-name {
+	padding-top: 5px;
+	font-size: 16px;
+	color: #999999;
+}
+.success {
+	font-size: 14px;
+	color: #999999;
+	margin-top: 5px;
+}
+.success a {
+	color: #ff0000;
+}
+.success-p {
+	margin-top: 15px;
+}
 @media screen and (max-width: 736px) {
 	.LoginBbox {
 		width: 100%;
+		min-width: 100%;
+		margin: 0;
+	}
+	/*登录*/
+	.ReturnPage {
+		display: none;
+	}
+	.login-tit {
+		height: 60px;
+		font-size: 18px;
+	}
+	.Login-con {
+		padding: 45px 10%;
+		width: 100%;
+		margin: 0;
+	}
+	.SignuBox {
+		width: 100%;
+		min-width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.SignuBox .sign-tit {
+		font-size: 14px;
+	}
+	.forgetBoxImg {
+		display: none;
+	}
+	.forgetBox {
+		width: 100%;
+		max-width: 100%;
+		min-width: 100%;
+		margin: 0;
+	}
+	.FORGET .sign-tit li {
+		padding: 10px 0;
+		display: inline;
+	}
+	.FORGET .sign-tit li img {
+		width: 15px;
+		margin-right: 0;
+	}
+	.forgetBox .FORGET {
+		box-shadow: none;
+		border: none;
+	}
+	.FORGET .sign-tit {
+	    padding: 15px 0;
+	    font-size: 12px;
+	}
+	.success-img img {
+		width: 60px;
+		height: 60px;
+		margin-top: 20px;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
