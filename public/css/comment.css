@@ -126,6 +126,7 @@ a:hover {
 	width: 12px;
 	height: 31px;
 	display: inline-block;
+	cursor: pointer;
 }
 .icon-Educational {
 	background: url("../images/header/ARROW_LEFT.png") no-repeat center;
