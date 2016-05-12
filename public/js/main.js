@@ -29,7 +29,11 @@ $(function(){
         // var searchContent = $(this).text();
         // $(this).parents('.lists').find('.list-option b').text(searchContent);
     })
-
+    // 返回上一网页
+    var _ReturnPage = $('.ReturnPage-left');
+    _ReturnPage.click(function(){
+        history.back()
+    })
     // 内容替换
     
     
