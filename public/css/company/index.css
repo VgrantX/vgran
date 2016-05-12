@@ -62,6 +62,9 @@
 	font-size:14px;
 	float: right;
 	/*width: 45px;*/
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
 	text-align: right;
 }
 .panel .shanchang {
