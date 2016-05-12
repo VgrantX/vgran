@@ -55,13 +55,13 @@
 }
 .panel .top .font-h1 {
 	font-size: 18px;
-	width: calc(100% - 90px);
+	width: calc(100% - 100px);
 	display:inline-block;  text-overflow:ellipsis; white-space:nowrap; overflow:hidden;
 }
 .panel .top .topR {
 	font-size:14px;
 	float: right;
-	width: 90px;
+	width: 100px;
 	overflow: hidden;
 	text-overflow:ellipsis;
 	white-space: nowrap;
@@ -194,8 +194,10 @@
 		width: 100%;
 	}
 	.panel .top .topR {
-		float: none;
-		display: inline-block;
+		float: left;
+		display: block;
+		width: 100%;
+		text-align: left;
 	}
 	.panel .Portrait{
 		width: 115px;
