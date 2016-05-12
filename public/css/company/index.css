@@ -61,7 +61,7 @@
 .panel .top .topR {
 	font-size:14px;
 	float: right;
-	/*width: 45px;*/
+	width: 90px;
 	overflow: hidden;
 	text-overflow:ellipsis;
 	white-space: nowrap;
