@@ -207,7 +207,8 @@ a:hover {
 	margin-bottom: 10px;
 }
 .icon-posi{
-    height: 20px;display: block;line-height: 20px; float: right;padding-top: 6px;font-size:14px;
+	overflow: hidden;
+    height: 25px;display: block;line-height: 20px; float: right;padding-top: 6px;font-size:14px;
 }
 
 /*人物信息模块*/
