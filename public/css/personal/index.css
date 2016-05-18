@@ -98,6 +98,7 @@
 }
 ._p_con_right {
 	float: left;
+	min-width: 500px;
 	width: calc(100% - 255px);
 	margin-left: 5px;
 	border-radius: 5px;
@@ -152,7 +153,36 @@
 	display: inline-block;
 }
 
-
+@media screen and (max-width: 736px) {
+	._p_title {
+		background: #f2f2f2;
+		height: 50px;
+		padding-left: 20px;
+		padding-top: 12px;
+	}
+	._p_con_left {
+		display: none;
+	}
+	._p_con_right {
+		width: 100%;
+		margin-left: 0;
+		padding: 0;
+		min-width: 100%;
+		border-radius: 0;
+	}
+	.p_resume {
+		margin: 0;
+		border-bottom: 20px solid #f2f2f2;
+		width: 100%;
+		border-radius: 0;
+		padding: 10px;
+		background: #ffffff;
+	}
+	._p_con {
+		width: 100%;
+		margin: 0px;
+	}
+}
 
 
 
