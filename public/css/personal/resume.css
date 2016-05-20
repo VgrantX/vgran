@@ -1,0 +1,56 @@
+.add-resume {
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	background: #cccccc;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 13px;
+	margin-top: 50px;
+}
+.add-resume a {
+	color: #333333;
+}
+.add-resume a:hover {
+	color: #333333;
+}
+
+._p_resume {
+	padding: 15px;
+	display: inline-block;
+	width: 100%; 
+	background: #eeeeee;
+	border-radius: 5px;
+	margin-top: 50px;
+}
+._p_resume span {
+	margin-right: 5px;
+	font-size: 14px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+._p_resume span img {
+	margin-right: 5px;
+}
+._p_resume ._p_blue {
+	color: #288ee0;
+	font-size: 20px;
+}
+._p_info2 {
+	color: #999999;
+	font-size: 14px;
+}
+._p_Default {
+	width: 40px;
+	margin-top: -15px;
+	height: 55px;
+	background: #ffb946;
+	display: inline-block;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 5px;
+	float: right;
+}
