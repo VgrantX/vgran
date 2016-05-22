@@ -15,4 +15,16 @@ $(function(){
           flag_login = true
         }
     });
+    $('.bianxie').click(function(){
+      $('.bianji').css({display:'block'});
+    })
+    $('.discard').click(function(){
+      $('.bianji').css({display:'none'});
+    })
+    $('.tuichu').click(function(){
+      $('.tuichu-box').css({display:'block'});
+    })
+    $('.discard-t').click(function(){
+      $('.tuichu-box').css({display:'none'});
+    })
 })

@@ -1,5 +1,7 @@
 /*app*/
-
+.ReturnPage {
+	padding: 0;
+}
 .personal {
 	background: #ffffff;
 	width: 100%;
@@ -98,7 +100,6 @@
 }
 ._p_con_right {
 	float: left;
-	min-width: 500px;
 	width: calc(100% - 255px);
 	margin-left: 5px;
 	border-radius: 5px;
@@ -190,7 +191,97 @@
 ._p_active a {
 	color: #ffffff;
 }
+/*退出*/
+.tuichu-box {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 999999;
+	display: none;
+	background: rgba(0,0,0,0.3);
+}
+.tuichu-box ul {
+	cursor: pointer;
+	width: 300px;
+	background: #eeeeee;
+	height: 95px;
+	margin: 0 auto;
+	margin-top: 200px;
+	border-radius: 5px;
+}
+.tuichu-box li {
+	height: 45px;
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 5px;
+	background: #ffffff;
+	border-radius: 5px;
+}
+
+.tuichu-red {
+	color: #ff0101;
+}
+
+/*编辑头像*/
+.bianji {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 999999;
+	display: none;
+	background: rgba(0,0,0,0.3);
+}
+.bianji ul {
+	width: 300px;
+	background: #eeeeee;
+	height: 145px;
+	margin: 0 auto;
+	margin-top: 200px;
+	border-radius: 5px;
+}
+.bianji li {
+	height: 45px;
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 5px;
+	background: #ffffff;
+	border-radius: 5px;
+}
 @media screen and (max-width: 736px) {
+	.bianji ul {
+		width: 100%;
+		background: #eeeeee;
+		height: 145px;
+		bottom: 0;
+		position: absolute;
+
+	}
+	.bianji li {
+		height: 45px;
+		text-align: center;
+		padding-top: 10px;
+		margin-top: 5px;
+		background: #ffffff;
+		border-radius: 5px;
+	}
+	.tuichu-box ul {
+		width: 100%;
+		background: #eeeeee;
+		height: 95px;
+		bottom: 0;
+		position: absolute;
+
+	}
+	.tuichu-box li {
+		height: 45px;
+		text-align: center;
+		padding-top: 10px;
+		margin-top: 5px;
+		background: #ffffff;
+		border-radius: 5px;
+	}
+
+
 	._p_title {
 		background: #f2f2f2;
 		height: 50px;
@@ -219,6 +310,25 @@
 		width: 100%;
 		margin: 0px;
 	}
+	.personal:hover {
+	background: #ffffff;
+	}
+	.personal:hover a {
+		color: #999999;
+	}
+	.personal:hover img {
+		display: inline-block;
+	}
+	.personal:hover ._p_add_img {
+		display: block;
+	}
+	.personal:hover .zi ._p_add_img {
+		margin-top: 5px;
+	}
+	.personal:hover ._p_icon {
+		background: #ffffff;
+	}
+
 }
 
 

@@ -37,7 +37,12 @@
 	<link rel="stylesheet" href="../../public/css/personal/resume.css">
 </head>
 <body>
-
+<div class="tuichu-box">
+	<ul>
+		<li class="tuichu-red">退出登录</li>
+		<li class="discard-t">取消</li>
+	</ul>
+</div>
 <div class="HeaderTop"></div>
 <div class="HeaderTopFixed">
 	<div class="header-top">
@@ -209,7 +214,7 @@
 						
 							<!-- 谁看过我的简历 -->
 							<div class="personal _p">
-								<a href="browse.html">
+								<a href="browse-company.html">
 								<div class="_p_icon zi">
 									<img src="../../public/images/personal/VIEW.png" alt="">
 									<img class="_p_add_img" src="../../public/images/personal/VIEW2.png" alt="">
@@ -247,7 +252,7 @@
 							</div>
 						<!-- 收藏记录 -->
 						<div class="personal _p">
-							<a href="collect.html">
+							<a href="collect-job.html">
 							<div class="_p_icon blue-dark">
 								<img src="../../public/images/personal/STAR.png" alt="">
 								<img class="_p_add_img" src="../../public/images/personal/STAR2.png" alt="">
@@ -272,8 +277,8 @@
 								</a>
 							</div>
 							<!-- 退出登录 -->
-							<div class="personal _p">
-								<a href="">
+							<div class="personal _p tuichu">
+								<a>
 								<div class="_p_icon zise-fik">
 									<img src="../../public/images/personal/POWER.png" alt="">
 									<img class="_p_add_img" src="../../public/images/personal/POWER2.png" alt="">
@@ -296,11 +301,11 @@
 										<span class="_p_Default">默认简历</span>
 										<span class="_p_blue">前端开发求职</span>
 										<span class="_p_info2">被浏览：<b>25</b></span>
-										<span class="_p_info2">刷新：<b>2016-03-31</b></span>
+										<span class="_p_info2">刷新：<b class="time"></b></span>
 									</div>
 									<div>
-										<span><img src="../../public/images/personal/REPEAT 2.png" alt="">刷新</span>
-										<span><img src="../../public/images/personal/PEN 3.png" alt="">修改</span>
+										<span><a href="resume.html"><img src="../../public/images/personal/REPEAT 2.png" alt="">刷新</a></span>
+										<span><a href="add_resume.html"><img src="../../public/images/personal/PEN 3.png" alt="">修改</a></span>
 										<span><img src="../../public/images/personal/CIRCLE _ OK.png" alt="">默认简历</span>
 										<span><img src="../../public/images/personal/BIN.png" alt="">删除</span>
 									</div>
@@ -308,7 +313,7 @@
 							</div>
 							<div class="col-md-6">
 								<div class="add-resume">
-									<a href="">
+									<a href="add_resume.html">
 										<img src="../../public/images/personal/PLUS.png" alt="">
 										创建简历
 									</a>
@@ -387,8 +392,16 @@
 	<script src="../../public/js/jquery.elipsis.js"></script>
 	<script src="../../public/js/OwlCarousel.js"></script>
 	<script src="../../public/js/main.js"></script>
+	<script src="../../public/js/invite.js"></script>
 	<script>
-    var _PortraitIMG = $('.PortraitIMG').width();
-    $('.PortraitIMG').height(_PortraitIMG*0.625);
+	var d = new Date();
+	var g = (d.getFullYear() > 10 ? d.getFullYear() : "0" + d.getFullYear() + 1)
+	var c = ((d.getMonth() + 1) > 10 ? (d.getMonth() + 1) : "0" + (d.getMonth() + 1))
+	var b = (d.getDate() < 10 ? "0" + d.getDate() : d.getDate());
+	var a = (d.getHours() < 10 ? "0" + d.getHours() : d.getHours());
+	var e = (d.getMinutes() < 10 ? "0" + d.getMinutes() : d.getMinutes());
+	var f = (d.getSeconds() < 10 ? "0" + d.getSeconds() : d.getSeconds());
+	$('.time').text(g+"-"+c+"-"+b);
+	</script>
 	</script>
 </html>

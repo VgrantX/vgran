@@ -35,6 +35,7 @@
 	<link rel="stylesheet" href="../../public/css/company.css">
 	<link rel="stylesheet" href="../../public/css/personal/index.css">
 	<link rel="stylesheet" href="../../public/css/personal/invite.css">
+	<link rel="stylesheet" href="../../public/css/personal/application.css">
 </head>
 <body>
 <div class="tuichu-box">
@@ -59,7 +60,7 @@
 				</span>
 				<span class="portrait">
 					<div class="portrait-img">
-						<img class="bounceIn animated" src="../../public/images/header/people.png" alt="">
+						<a href="infomation.html"><img class="bounceIn animated" src="../../public/images/header/people.png" alt=""></a>
 					</div>
 				</span>
 			</div>
@@ -200,7 +201,7 @@
 								</a>
 							</div>
 							<!-- 面试邀请 -->
-							<div class="personal _p   _p_active">
+							<div class="personal _p">
 								<a href="invite.html">
 								<div class="_p_icon cheng">
 									<img src="../../public/images/personal/SPEECH BUBBLES.png" alt="">
@@ -213,7 +214,7 @@
 							</div>
 						
 							<!-- 谁看过我的简历 -->
-							<div class="personal _p">
+							<div class="personal _p  _p_active">
 								<a href="browse-company.html">
 								<div class="_p_icon zi">
 									<img src="../../public/images/personal/VIEW.png" alt="">
@@ -277,7 +278,7 @@
 								</a>
 							</div>
 							<!-- 退出登录 -->
-							<div class="personal _p  tuichu">
+							<div class="personal _p tuichu">
 								<a>
 								<div class="_p_icon zise-fik">
 									<img src="../../public/images/personal/POWER.png" alt="">
@@ -290,58 +291,70 @@
 							</div>
 						</div>
 					</div>
-					<div class="_p_con_right">
+					<div class="_p_con_right _p_browse_right">
 						<div class="_p_title">
-							面试邀请
-							<span class="_p_tit_r">共有<b><span class="sum">0</span>个</b>面试邀请</span>
+							谁看过我的简历
+							<div class="_p_tit_r collect-all">
+								<a href="browse-company.html">企业</a>
+								<a class="active" href="browse-consultant.html">顾问</a>
+							</div>
 						</div>
+						
 						<div class="_p_invite_n">
 							<img src="../../public/images/personal/FOLDER _ ADD.png" alt="">
-							<p>暂时没有面试邀请</p>
+							<p>您还没有收藏顾问</p>
 						</div>
 						<div class="invite-box">
-							<div class="invite row">
-								<div class="col-md-9">
-									<div class="invite-t row">
+							<div class="invite col-md-6 padding-no _p_collect">
+								<div class="col-md-8 padding-no">
+									<div class="invite-t">
 										<div class="company-top">
 											<div class="qiye-img">
-												<img src="" alt="">
+												<img src="../../public/images/personal/5.png" alt="">
 											</div>
 											<div class="qiye-info">
-												<div class="col-md-6">
-													<p class="shenglue">
-														<span class="blue">产品经理</span>
-														<span class="info-red">￥15-20K</span>
-														<span class="info-con">5小时前</span>
-													</p>
-													<p class="shenglue">北京  |  本科  |  经验3-5年</p>
-												</div>
-												<div class="col-md-6">
-													<p class="shenglue">北京微科锐科技有限公司</p>
-													<p class="shenglue info-con">互联网（A轮）</p>
-												</div>
+												<p class="">
+													<span class="blue"><a href="">产品经理</a></span>
+													<span class="bg-red">金牌顾问</span>
+												</p>
+												<p class="shenglue">擅长行业：医疗/生物制药</p>
+												<p class="shenglue">擅长职能：医学/医学/医学</p>
 											</div>
 										</div>
 									</div>
-									<div class="invite-b">
-											<b>推荐理由：</b>
-											<span>
-											具有3年产品经理工作经验，具有3年产品经理工作经验具有3年产品经理工作经验具有3年产品经理工作经验具有3年产品经理工作经
-											</span>
-									</div>
 								</div>
-								<div class="col-md-3">
+								<div class="col-md-4">
 									<div class="Features">
 											<b>
-												<img  class="add-info-img" src="../../public/images/header/STAR.png" alt="">
-												<img  class="remove-info-img" src="../../public/images/header/STAR2.png" alt="">
+												<img  class="add-info-img" src="../../public/images/header/STAR2.png" alt="">
+												<img  class="remove-info-img" src="../../public/images/header/STAR.png" alt="">
 												收藏
 											</b>
-											<b>
-												<img src="../../public/images/personal/BIN.png" alt="">删除
+											<b class="share">
+												<img class="share-img" src="../../public/images/header/fenxaing.png" alt="">分享
+												<div class="info">
+													<p>
+														分享
+														<img class="CLOSE" src="../../public/images/header/CLOSE.png" alt="">
+													</p>
+													<div>
+														<a href="">
+															<img src="../../public/images/header/wexin.png" alt="">
+															<span>微信</span>
+														</a>
+														<a href="">
+															<img src="../../public/images/header/weibo.png" alt="">
+															<span>微博</span>
+														</a>
+														<a href="">
+															<img src="../../public/images/header/pengyouquan.png" alt="">
+															<span>朋友圈</span>
+														</a>
+													</div>
+												</div>
 											</b>
-									</div>
-									<button class="btn">申请职位</button>
+										</div>
+										<div class="font-gray">共<b><span class="sum">0</span></b>个职位正在招聘</div>
 								</div>
 							</div>
 						</div>	

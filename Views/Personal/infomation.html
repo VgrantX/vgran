@@ -37,7 +37,12 @@
 	<link rel="stylesheet" href="../../public/css/personal/infomation.css">
 </head>
 <body>
-
+<div class="tuichu-box">
+	<ul>
+		<li class="tuichu-red">退出登录</li>
+		<li class="discard-t">取消</li>
+	</ul>
+</div>
 <div class="HeaderTop"></div>
 <div class="HeaderTopFixed">
 	<div class="header-top">
@@ -209,7 +214,7 @@
 						
 							<!-- 谁看过我的简历 -->
 							<div class="personal _p">
-								<a href="browse.html">
+								<a href="browse-company.html">
 								<div class="_p_icon zi">
 									<img src="../../public/images/personal/VIEW.png" alt="">
 									<img class="_p_add_img" src="../../public/images/personal/VIEW2.png" alt="">
@@ -247,7 +252,7 @@
 							</div>
 						<!-- 收藏记录 -->
 						<div class="personal _p">
-							<a href="collect.html">
+							<a href="collect-job.html">
 							<div class="_p_icon blue-dark">
 								<img src="../../public/images/personal/STAR.png" alt="">
 								<img class="_p_add_img" src="../../public/images/personal/STAR2.png" alt="">
@@ -272,8 +277,8 @@
 								</a>
 							</div>
 							<!-- 退出登录 -->
-							<div class="personal _p">
-								<a href="">
+							<div class="personal _p  tuichu">
+								<a>
 								<div class="_p_icon zise-fik">
 									<img src="../../public/images/personal/POWER.png" alt="">
 									<img class="_p_add_img" src="../../public/images/personal/POWER2.png" alt="">
@@ -306,7 +311,7 @@
 										    </div>
 										</div>
 										<div class="form-group">
-											<label class="col-sm-4 control-label" for='gender'>真实姓名</label>
+											<label class="col-sm-4 control-label" for='gender'>性别</label>
 											<div class="col-sm-7">
 											    <label class="demo--label">
 											        <input class="demo--radio" type="radio" name="radio">
@@ -526,6 +531,7 @@
 	<script src="../../public/js/jquery.elipsis.js"></script>
 	<script src="../../public/js/OwlCarousel.js"></script>
 	<script src="../../public/js/main.js"></script>
+	<script src="../../public/js/invite.js"></script>
 	<script>
     var _PortraitIMG = $('.PortraitIMG').width();
     $('.PortraitIMG').height(_PortraitIMG*0.625);

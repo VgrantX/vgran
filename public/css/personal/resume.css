@@ -6,7 +6,8 @@
 	margin: 0 auto;
 	text-align: center;
 	padding-top: 13px;
-	margin-top: 50px;
+	margin-top: 80px;
+	margin-bottom: 50px;
 }
 .add-resume a {
 	color: #333333;
@@ -24,7 +25,7 @@
 	margin-top: 50px;
 }
 ._p_resume span {
-	margin-right: 5px;
+	margin-right: 10px;
 	font-size: 14px;
 	display: inline-block;
 	margin-bottom: 5px;
@@ -54,3 +55,111 @@
 	padding-top: 5px;
 	float: right;
 }
+.margin-no {
+	margin: 0;
+}
+/*add_resume*/
+._p_con_box {
+	background: #ffffff;
+	border-radius: 5px;
+	display: inline-block;
+    width: 100%;
+    padding: 30px calc(50% - 500px);
+}
+form {
+	padding: 0 15px;
+}
+.display-block {
+	display: none;
+}
+.linghtred {
+	font-size: 18px;
+	color: #fd6969;
+}
+.linghtred p {
+	margin-bottom: 20px;
+}
+._p_portrait {
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	overflow: hidden;
+	border: 2px solid #333333;
+}
+._p_portrait img {
+	width: 100%;
+}
+._Pportrait {
+	font-size: 14px;
+	color: #999999;
+}
+.demo--label{
+	margin:0px 20px 0 0;
+	display:inline-block
+}
+.demo--radio{display:none}
+.demo--radioInput{
+	background-color: none;
+	border:2px solid #cccccc;
+	display:inline-block;
+	height:40px;
+	margin-right:10px;
+	margin-top:-1px;
+	border-radius: 5px;
+	vertical-align:middle;
+	width:40px;
+	line-height:1;
+	text-align: center;
+	padding-top: 10px;
+	position: relative;
+	}
+.demo--radio:checked + .demo--radioInput:after{
+	background-color:none;
+	content:"";
+	display:inline-block;
+	height:40px;
+	border: 2px solid #ff9696;
+	width:40px;
+	border-radius:5px;
+	position: absolute;
+	left: -2px;
+	top: -2px;
+}
+.time_date {
+	font-size: 14px;
+	color: #999999;
+	margin-top: 5px;
+}
+.input-bottom-con {
+	width: 12%;
+}
+.select-b-b select {
+	margin-bottom: 20px;
+}
+.btn-default {
+	width: 280px;
+	height: 40px;
+	background: #fe8369;
+	border: none;
+	color: #ffffff;
+	display: inherit;
+	margin: 30px auto;
+}
+.btn-default:hover {
+	background: #fe8369;
+	color: #ffffff;
+}
+.l-r-top {
+	margin-top: 20px;
+}
+@media screen and (max-width: 736px) {
+	.display-none {
+		display: none;
+	}
+	.display-block {
+		display: block;
+	}
+}
+
+

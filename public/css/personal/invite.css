@@ -1,0 +1,153 @@
+._p_invite_n {
+	text-align: center;
+	padding-top: 150px;
+	color: #999999;
+}
+._p_con_right {
+	min-height: 615px;
+}
+._p_tit_r {
+	text-align: right;
+	font-size: 14px;
+	color: #999999;
+	display: inline-block;
+	width: calc(100% - 80px);
+}
+.invite {
+	/*display: inline-block;*/
+	padding: 20px;
+	border: 1px solid #fdd4d4;
+	border-radius: 2px;
+	margin-top: 10px;
+}
+.qiye-img {
+	width: 70px;
+	height: 70px;
+	float: left;
+	overflow: hidden;
+}
+.qiye-img img {
+	width: 100%;
+}
+.qiye-info {
+	float: left;
+	width: calc(100% - 70px);
+	padding-left: 10px;
+}
+.company-top {
+	width: 100%;
+	display: inline-block;
+}
+.qiye-info span {
+	margin-right: 10px;
+}
+.qiye-info .blue {
+	color: #29abe2;
+	font-size: 18px;
+	background: none;
+}
+.info-red {
+	color: #ff3e03;
+}
+.invite-t .info-con {
+	color: #999999;
+	font-size: 14px;
+}
+.invite-b {
+	margin-left: -5px;
+	color: #999999;
+	font-size: 14px;
+	width: 100%;
+	overflow: hidden;
+	height: 20px;
+}
+.invite-b p {
+	/*width: 100%;*/
+	white-space:nowrap;/* 不换行 */
+    overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow:ellipsis;
+
+}
+.invite-b b {
+	font-weight: normal;
+	font-size: 16px;
+	color: #333333;
+}
+.invite-box {
+	width: 100%;
+
+	display: inline-block;
+}
+.invite-t p {
+	font-size: 14px;
+	margin-top: 10px;
+}
+.Features b,.Features span {
+	color: #999999;
+	font-size: 14px;
+}
+.Features img {
+	margin-right: 2px;
+	opacity: 0.8;
+}
+.btn {
+	float: right;
+	display: block;
+	margin-top: 40px;
+	background: #fe8369;
+	color: #ffffff;
+}
+.btn:hover {
+	color: #ffffff;
+}
+.shenglue {
+	white-space:nowrap;/* 不换行 */
+    overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow:ellipsis;
+
+}
+.collect-company .qiye-info p,.collect-company .qiye-info .font-gray,.collect-company .Features {
+	margin-top: 0px;
+}
+.display-block {
+	display: inline-block;
+}
+.display-none {
+	display: none;
+}
+@media screen and (max-width: 736px) {
+	.invite-t p {
+		margin-top: 0;
+	}
+	body {
+		background: #ffffff;
+	}
+	._p_con_right {
+		min-height: 400px;
+	}
+	.btn {
+		margin: 0 auto;
+		float: right;
+		margin-top: -35px;
+	}
+	._p_title {
+		background: #ffffff;
+	}
+	.invite-box {
+		padding: 0 10px;
+	}
+	.Features {
+		width: 50%;
+		float: none;
+		margin-top: 15px;
+	}
+	.App-footer {
+		margin-top: 20px;
+	}
+	.invite  {
+		padding: 10px 5px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
