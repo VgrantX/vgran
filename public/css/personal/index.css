@@ -250,6 +250,15 @@
 	background: #ffffff;
 	border-radius: 5px;
 }
+.app_fanhui {
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-top: 12px;
+}
+.header-top-nav {
+	margin-left: 30px;
+}
 @media screen and (max-width: 736px) {
 	.ReturnPage {
 		padding: 0;
