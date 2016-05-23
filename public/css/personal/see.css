@@ -50,6 +50,10 @@
 .btn-gray {
 	background: #999999;
 }
+.shenqing {
+	display: inline-block;
+	width: 100%;
+}
 @media screen and (max-width: 736px) {
 	.font-gray {
 		margin-left: 20px;

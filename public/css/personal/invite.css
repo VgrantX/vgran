@@ -68,6 +68,9 @@
     text-overflow:ellipsis;
 
 }
+.Features b {
+	font-weight: normal;
+}
 .invite-b b {
 	font-weight: normal;
 	font-size: 16px;

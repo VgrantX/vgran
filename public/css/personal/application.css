@@ -35,8 +35,8 @@
 	display: inline-block;
 }
 
-.Features {
-	margin-top: 15px;
+.Features b {
+	font-weight: normal;
 }
 /*收藏*/
 ._p_collect {
@@ -74,12 +74,17 @@
 	padding: 10px;
 	background: #eeeeee;
 	border: none;
+	width: 100%;
 	display: inline-block;
 }
 
 /**/
 ._p_browse_right ._p_tit_r {
 	width: calc(100% - 140px);
+}
+.browse-more {
+	text-align: center;
+	margin: 50px 0;
 }
 @media screen and (max-width: 736px) {
 	.font-gray {
