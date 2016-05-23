@@ -42,9 +42,12 @@
 	margin-right: 10px;
 }
 .qiye-info .blue {
-	color: #29abe2;
 	font-size: 18px;
+	color: #29abe2;
 	background: none;
+}
+.qiye-info .blue a {
+	color: #29abe2;
 }
 .info-red {
 	color: #ff3e03;
