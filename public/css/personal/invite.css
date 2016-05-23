@@ -80,7 +80,9 @@
 }
 .invite-t p {
 	font-size: 14px;
-	margin-top: 10px;
+}
+._p_collect .invite-t p {
+	margin-top: 5px;
 }
 .Features b,.Features span {
 	color: #999999;
