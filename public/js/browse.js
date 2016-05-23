@@ -11,18 +11,20 @@ $(function(){
 
 	$.each($('.invite'), 
 		function (i, item){
-		 if (i > 3) {item.hide();}
+		 if (i > 7) {
+		 	$(item).hide();
+			$('.browse-more').css({display:'block'});
+		 }
 		 else {
-		 	item.show();
+		 	$(item).show();
+		 	$('.browse-more').css({display:'none'});
 		 }
 	})
-	var _info_sum = $('.invite').length;
-	if (_info_sum > 8) {
-		$('.browse-more').css({display:'block'});
-	}
-	else {
-		$('.browse-more').css({display:'none'});
-	}
+	$('.browse-more').click(function(){
+		$('.invite').show();
+	})
+
+
 	$('.tuichu').click(function(){
       $('.tuichu-box').css({display:'block'});
     })

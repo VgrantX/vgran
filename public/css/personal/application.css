@@ -43,6 +43,7 @@
 	background: #eeeeee;
 	border: none;
 	padding: 10px;
+	display: inline-block;
 }
 .collect-all a {
 	display: inline-block;
@@ -85,6 +86,7 @@
 .browse-more {
 	text-align: center;
 	margin: 50px 0;
+	cursor: pointer;
 }
 @media screen and (max-width: 736px) {
 	.font-gray {
