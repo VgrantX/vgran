@@ -277,7 +277,7 @@
 							    </div>
 							<div class="form-group">
 						      <div class="col-sm-offset-3 col-sm-6">
-						        <button type="submit" onclick="document.passwordChange.password1.checkValidity()" class="btn btn-default btn-signup">注册</button>
+						        <button id="signup" type="submit" onclick="document.passwordChange.password1.checkValidity()" class="btn btn-default btn-signup">注册</button>
 						        <div class="loginUp">
 						        	已有账号？马上<a href="login.html">登录</a>
 						        </div>
@@ -357,14 +357,20 @@
 	<script src="../../public/js/main.js"></script>
 	<script>
 
+        
         function checkPasswords() {
         var pass1 = document.getElementById("password");
         var pass2 = document.getElementById("password2");
  
-        if (pass1.value != pass2.value)
+        if (pass1.value != pass2.value){
             pass1.setCustomValidity("两次输入的密码不匹配");
-        else
+        }
+        else{
             pass1.setCustomValidity("");
-    }
+		    alert("注册成功");
+	        window.open("file:///Users/Alina/Desktop/vgran/Views/Personal/add_resume.html");
+        }
+	    }
+
 	</script>
 </html>
