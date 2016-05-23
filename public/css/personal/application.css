@@ -43,7 +43,11 @@
 	background: #eeeeee;
 	border: none;
 	padding: 10px;
+	width: 100%;
 	display: inline-block;
+}
+._p_collect .font-gray {
+	margin-left: 10px;
 }
 .collect-all a {
 	display: inline-block;
