@@ -238,6 +238,9 @@ button.btn-default:hover {
 .success-p {
 	margin-top: 15px;
 }
+.footer {
+			margin-top: 120px;
+		}
 @media screen and (max-width: 736px) {
 	.ProofreadBox,.YAN {
 		margin-top: 10px;

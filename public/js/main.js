@@ -34,12 +34,6 @@ $(function(){
     _ReturnPage.click(function(){
         history.back()
     })
-    // 手机
-     var _app_ReturnPage = $('.app_fanhui');
-    _app_ReturnPage.click(function(){
-        history.back()
-    })
-
     // 内容替换
     
     

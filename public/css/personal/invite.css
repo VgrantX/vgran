@@ -100,10 +100,11 @@
 }
 .btn {
 	float: right;
-	display: block;
+	display: inline-block;
 	margin-top: 40px;
 	background: #fe8369;
 	color: #ffffff;
+
 }
 .btn:hover {
 	color: #ffffff;
