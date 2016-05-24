@@ -3,6 +3,7 @@
 }
 .invite {
 	position: relative;
+	margin-bottom: 10px;
 }
 ._p_ji_gray {
 	position: absolute;
@@ -65,7 +66,9 @@
 	._p_collect .Features {
 		margin-top: 0;
 	}
-
+	.invite {
+		padding: 20px 10px;
+	}
 	.invite-box {
 		padding: 0;
 	}
