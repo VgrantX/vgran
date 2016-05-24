@@ -18,6 +18,14 @@
 .add-resume a:hover {
 	color: #333333;
 }
+.btn-success {
+	background: #fe8369;
+	border: none;
+}
+.btn-success:hover,.btn-success:active,.btn-success:focus {
+	background: #fe8369;
+	border: none;
+}
 
 ._p_resume {
 	padding: 15px;
@@ -155,7 +163,16 @@ form {
 .l-r-top {
 	margin-top: 20px;
 }
+.bianxie {
+	display: none;
+}
 @media screen and (max-width: 736px) {
+	.bianxie {
+	display: block;
+	}
+	.pc-bianxie {
+		display: none;
+	}
 	.display-none {
 		display: none;
 	}
