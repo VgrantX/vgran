@@ -4,7 +4,28 @@
 	margin-top: 5px;
 	margin-right: 15px;
 }
-
+.bianji ul li {
+	position: relative;
+}
+.bianji input {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 45px;
+	z-index: 10;
+}
+.bianji span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	width: 100%;
+	height: 45px;
+	z-index: 9;
+	padding-top: 13px;
+}
 /*app*/
 .personal {
 	background: #ffffff;
