@@ -3,6 +3,7 @@
 }
 .invite {
 	position: relative;
+
 }
 ._p_ji {
 	position: absolute;
@@ -104,7 +105,6 @@
 	._p_collect .Features {
 		margin-top: 0;
 	}
-
 	.invite-box {
 		padding: 0;
 	}
@@ -121,5 +121,7 @@
 	.collect-company .Features {
 		margin-top: 0;
 	}
-	
+	.font-gray {
+			margin-left: 20px;
+		}
 }
