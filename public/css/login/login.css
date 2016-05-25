@@ -88,7 +88,7 @@
 	display: inline-block;
 	margin-left: 10%;
 	background: #ffffff;
-	box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+	box-shadow: 0 4px 20px rgba(0,0,0,0.05);
 	padding: 40px 10%;
 }
 .SignuBox .sign-tit {
