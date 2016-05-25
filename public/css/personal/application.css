@@ -81,6 +81,7 @@
 }
 ._p_collect .font-gray {
 	margin-left: 10px;
+	float: right;
 }
 .collect-all a {
 	display: inline-block;
@@ -130,6 +131,7 @@
 	width: 100%;
 }
 @media screen and (max-width: 736px) {
+
 	._p_ji_gray {
 		border: 16px solid #afaeae;
 		border-right-color: rgba(0,0,0,0);
@@ -174,9 +176,12 @@
 	.Features {
 		width: 100%;
 		float: none;
-		text-align: right;
+		text-align: left;
 	}
 
+._p_collect .font-gray {
+	float: left !important;
+}
 	.collect-company {
 		width: 100%;
 		margin-bottom: 10px;
