@@ -9,7 +9,7 @@
 	width: calc(100% - 40%);
 	background: #ffffff;
 	margin: 50px auto;
-	box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+
 }
 .login-tit {
 	background: url("../../images/login/bg.png");
@@ -172,7 +172,7 @@ button.btn-default:hover {
 	cursor: pointer;
 }
 .forgetBox .FORGET {
-	box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+	
 	background: #ffffff;
 	border: 5px solid #fc9ca1;
 	
