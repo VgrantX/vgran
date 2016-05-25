@@ -5,23 +5,54 @@
 	position: relative;
 
 }
+._p_ji_gray {
+	position: absolute;
+	top: 0;
+	left: 0;
+    display: inline-block;
+	border: 25px solid #afaeae;
+    border-right-color: rgba(0,0,0,0);
+    border-bottom-color: rgba(0,0,0,0);
+}
+._p_ji_gray span {
+	position: absolute;
+    top: -18px;
+    left: -18px;
+    color: #ffffff;
+    font-size: 12px;
+    width: 25px;
+    transform:rotate(-40deg);
+	-ms-transform:rotate(-40deg); 	/* IE 9 */
+	-moz-transform:rotate(-40deg); 	/* Firefox */
+	-webkit-transform:rotate(-40deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-40deg); 	/* Opera */
+}
 ._p_ji {
 	position: absolute;
 	top: 0;
 	left: 0;
     display: inline-block;
     position: absolute;
-    border: 16px solid #fe6262;
+    border: 25px solid #fe6262;
     border-right-color: rgba(0,0,0,0);
     border-bottom-color: rgba(0,0,0,0);
 }
 ._p_ji span {
 	position: absolute;
-    top: -14px;
-    left: -13px;
+    top: -19px;
+    left: -15px;
     color: #ffffff;
+    transform:rotate(-40deg);
+	-ms-transform:rotate(-40deg); 	/* IE 9 */
+	-moz-transform:rotate(-40deg); 	/* Firefox */
+	-webkit-transform:rotate(-40deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-40deg); 	/* Opera */
     font-size: 12px;
 }
+.s-rukou {
+	margin-left: 20px;
+}
+
 .margin-no {
 	margin-right: 0;
 	margin-left: 0;
@@ -94,7 +125,39 @@
 	margin: 50px 0;
 	cursor: pointer;
 }
+.Collect_btn {
+	display: inline-block;
+	width: 100%;
+}
 @media screen and (max-width: 736px) {
+	._p_ji_gray {
+		border: 16px solid #afaeae;
+		border-right-color: rgba(0,0,0,0);
+	    border-bottom-color: rgba(0,0,0,0);
+	}
+	._p_ji {
+		border: 16px solid #fe6262;
+		border-right-color: rgba(0,0,0,0);
+	    border-bottom-color: rgba(0,0,0,0);
+	}
+	._p_ji_gray span {
+		position: absolute;
+	    top: -15px;
+	    left: -15px;
+	    color: #ffffff;
+	    font-size: 12px;
+	    width: 25px;
+	}
+	._p_ji span {
+	position: absolute;
+    top: -13px;
+    left: -12px;
+    color: #ffffff;
+    font-size: 12px;
+	}
+	.application {
+		padding: 20px 10px;
+	}
 	.font-gray {
 		/*margin-left: 20px;*/
 		margin-bottom: 10px;
@@ -110,7 +173,10 @@
 	}
 	.Features {
 		width: 100%;
+		float: none;
+		text-align: right;
 	}
+
 	.collect-company {
 		width: 100%;
 		margin-bottom: 10px;

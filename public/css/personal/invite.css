@@ -124,6 +124,10 @@
 .display-none {
 	display: none;
 }
+.Collect_btn {
+	display: inline-block;
+	width: 100%;
+}
 @media screen and (max-width: 736px) {
 	.invite-t p {
 		margin-top: 0;

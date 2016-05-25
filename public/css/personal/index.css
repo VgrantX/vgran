@@ -223,9 +223,11 @@
 	position: fixed;
 	z-index: 999999;
 	display: none;
+	text-align: center;
 	background: rgba(0,0,0,0.3);
 }
 .tuichu-box ul {
+	display: none;
 	cursor: pointer;
 	width: 300px;
 	background: #eeeeee;
@@ -246,7 +248,34 @@
 .tuichu-red {
 	color: #ff0101;
 }
-
+.tuichu-2 {
+	width: 400px;
+	height: 180px;
+	margin: 0 auto;
+	margin-top: 200px;
+	background: #ffffff;
+	padding-top: 45px;
+}
+.tuichu-2 li {
+	width: 78px;
+	height: 30px;
+	font-size: 14px;
+	color: #ffffff;
+	float: left;
+	display: inline-block;
+	padding-top: 5px;
+	border-radius: 0;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.tuichu-2 li:nth-of-type(1) {
+	background: #fb4d4d;
+	margin-right: 30px;
+	margin-left: 100px;
+}
+.tuichu-2 li:nth-of-type(2) {
+	background: #9c9a9a;
+}
 /*编辑头像*/
 .bianji {
 	width: 100%;
@@ -282,6 +311,12 @@
 	margin-left: 30px;
 }
 @media screen and (max-width: 736px) {
+	.tuichu-box ul {
+		display: inline-block;
+	}
+	.tuichu-box .tuichu-2 {
+		display: none;
+	}
 	.ReturnPage {
 		padding: 0;
 	}
