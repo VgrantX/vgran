@@ -246,8 +246,19 @@
 										</div>
 										<div class="ARROWBOTTOM"><img src="../../public/images/header/ARROWDOWN.png" alt=""></div>
 									</div>
-
 								</div>
+								<!-- 如果次数没有数据 不是显示此模块 -->
+								<div class="CATTLE-people cattle-call">
+									<p class="FontH1" style="float: left;">专属顾问联系方式</p>
+									<div class="IntroductionFont">
+											<span>顾问：吴可卿</span>
+											<span>电话：18100005555</span>
+											<span>邮箱：12658235963@qq.com</span>
+											<span>规模：20-50人</span>
+											<span>地址：北京</span>
+									</div>
+								</div>
+
 								<div class="CATTLE-people">
 									<div class="CATTLE-people-panle">
 										<p class="FontH1" style="float: left;">正在招聘的职位</p>
@@ -443,5 +454,13 @@
 	<script>
     var _PortraitIMG = $('.PortraitIMG').width();
     $('.PortraitIMG').height(_PortraitIMG*0.625);
+    var _content = $('.cattle-call .IntroductionFont span').text();
+    
+    if (_content == "") {
+    	$('.cattle-call').css({display:'none'});
+    }else {
+    	$('.cattle-call').css({display:'inline-block'});
+    }
+
 	</script>
 </html>

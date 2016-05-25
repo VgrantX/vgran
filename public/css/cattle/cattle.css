@@ -187,6 +187,7 @@
 	color: #ffffff;
 	background: #f5989d;
 }
+
 @media screen and (max-width: 736px) {
 	.advanced-box {
 		padding: 0 10px;

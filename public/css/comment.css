@@ -252,6 +252,14 @@ a:hover {
 	color: #666666;
 	font-size: 14px;
 }
+.login-call-info {
+    display: inline-block;
+    padding: 35px 0;
+    margin-left: calc(50% - 125px);
+}
+.login-call-info p {
+	text-align: left;
+}
 .FontPink {
 	color: #f68f8f;
 	font-size: 16px;

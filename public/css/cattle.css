@@ -112,7 +112,17 @@
 	position: absolute;
 	right: 20px;
 }
-
+.cattle-btn {
+	width: 120px;
+	height: 36px;
+	background: #f68f8f;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 7px;
+	color: #ffffff;
+	margin: 0 auto;
+	margin-top: 30px;
+}
 @media screen and (max-width: 736px) {
 	.share .info {
 		top: 80px;
@@ -127,8 +137,8 @@
 		padding: 15px;
 	}
 	.PortraitImg {
-		width: 100px;
-		height: 100px;
+		width: 20PX;
+		height: 20px;
 	}
 	.CATTLE-name {
 		font-size: 18px;

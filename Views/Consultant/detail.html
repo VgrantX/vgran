@@ -216,19 +216,31 @@
 								</div>
 							</div>
 						<!-- 登录／注册 -->
-							<div class="col-md-3">
+							<div class="col-md-3 call-login">
+								<div class="LOGIN">
+									<div class="bgLoginPink">
+										联系方式
+									</div>
+									<div class="text-center login-call-info">
+										<p class="login-call-infos">联系人：刘阿宝</p>
+										<p class="login-call-infos">联系人电话：18035965236</p>
+										<p class="login-call-infos">联系人邮箱：18035965236@163.com</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 peo-login">
 								<div class="LOGIN">
 									<div class="bgLoginPink">
 										联系方式
 									</div>
 									<div class="text-center">
-										<a href=""><p class="LOGIN-IN">登录
+										<a href="../Login/login.html"><p class="LOGIN-IN">登录
 										<span class="LOGIN-IN-SPAN">后查看联系方式</span>
 										</p></a>
 
 										<p class="NO_HAVER">没有账号？</p>
 										<p><img src="../../public/images/header/ARROEBOTTOM.png" alt=""></p>
-										<p class="LOGIN-UP">注册</p>
+										<a href="../Login/signup.html"><p class="LOGIN-UP">注册</p></a>
 									</div>
 								</div>
 							</div>
@@ -429,4 +441,15 @@
 	<script src="../../public/js/jquery.elipsis.js"></script>
 	<script src="../../public/js/OwlCarousel.js"></script>
 	<script src="../../public/js/main.js"></script>
+	<script>
+		var _content2 = $('.login-call-info .login-call-infos').text();
+		if (_content2 == "") {
+			$('.call-login').css({display:'none'});
+			$('.peo-login').css({display:'inline-block'});
+		}
+		else {
+			$('.peo-login').css({display:'none'});
+			$('.call-login').css({display:'inline-block'});
+		}
+	</script>
 </html>
