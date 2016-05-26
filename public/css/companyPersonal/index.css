@@ -1,0 +1,20 @@
+/*jobs*/
+.invite-box  {
+	margin-top: 20px;
+}
+._p_invite_n {
+	width: 100%;
+}
+
+/*颜色*/
+.darkblue {
+	background: #448ccb;
+}
+
+/*App*/
+._p_icon {
+	padding: 0 5px;
+}
+._p_icon img {
+	width: 100%;
+}

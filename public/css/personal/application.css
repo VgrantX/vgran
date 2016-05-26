@@ -130,6 +130,9 @@
 	display: inline-block;
 	width: 100%;
 }
+.footer-box {
+	margin-top: 100px;
+}
 @media screen and (max-width: 736px) {
 
 	._p_ji_gray {

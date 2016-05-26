@@ -66,6 +66,7 @@
 	float: left;
 	width: 25px;
 	height: 25px;
+	padding: 0 5px;
 	border-radius: 50%;
 	text-align: center;
 }
@@ -145,7 +146,7 @@
 	height: 35px;
 	padding: 5px 7px;
 }
-._p_con_left ._p ._p_icon img {
+._p ._p_icon img {
 	width: 100%;
 }
 ._p_con_left ._p ._p_info {
@@ -381,6 +382,7 @@
 	._p_con {
 		width: 100%;
 		margin: 0px;
+		padding: 0 5px;
 	}
 	.personal:hover {
 	background: #ffffff;
