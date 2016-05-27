@@ -1,6 +1,6 @@
 
 	.footer-box {
-		margin-top: 120px;
+		margin-top: 340px;
 	}
 /*登录*/
 .LoginBbox {
@@ -280,6 +280,9 @@ button.btn-default:hover {
 	}
 	.forgetBoxImg {
 		display: none;
+	}
+	.App-footer {
+		margin-top: 60px;
 	}
 	.forgetBox {
 		width: 100%;
