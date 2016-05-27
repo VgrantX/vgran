@@ -68,6 +68,9 @@
 .IntroductionFont {
 	color: #333333;
 	display: inline-block;
+	width: 100%;
+	margin-bottom: 20px;
+	margin-top: 10px;
 }
 .IntroductionFont span {
 	margin-top: 15px;
