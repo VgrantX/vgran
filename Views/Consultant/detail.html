@@ -222,9 +222,9 @@
 										联系方式
 									</div>
 									<div class="text-center login-call-info">
-										<p class="login-call-infos">联系人：刘阿宝</p>
-										<p class="login-call-infos">联系人电话：18035965236</p>
-										<p class="login-call-infos">联系人邮箱：18035965236@163.com</p>
+										<p class="login-call-infos">联系人：<span>刘阿宝</span></p>
+										<p class="login-call-infos">联系人电话：<span>18035965236</span></p>
+										<p class="login-call-infos">联系人邮箱：<span>18035965236@163.com</span></p>
 									</div>
 								</div>
 							</div>
@@ -442,7 +442,7 @@
 	<script src="../../public/js/OwlCarousel.js"></script>
 	<script src="../../public/js/main.js"></script>
 	<script>
-		var _content2 = $('.login-call-info .login-call-infos').text();
+		var _content2 = $('.login-call-info .login-call-infos span').text();
 		if (_content2 == "") {
 			$('.call-login').css({display:'none'});
 			$('.peo-login').css({display:'inline-block'});
