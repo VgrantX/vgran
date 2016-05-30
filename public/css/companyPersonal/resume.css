@@ -77,7 +77,7 @@
     padding: 30px calc(50% - 500px);
 }
 form {
-	padding: 0 15px;
+	padding: 0 5px;
 }
 .display-block {
 	display: none;
@@ -168,6 +168,10 @@ form {
 }
 .control-label span {
 	color: #ff0000;
+}
+.teding {
+	width: 15%;
+	margin-right: 10px;
 }
 @media screen and (max-width: 736px) {
 	.ReturnPage,._Pportrait,.bianxie {

@@ -12,6 +12,7 @@
 	width: calc(100% - 60px);
 	padding-left: 10px;
 }
+
 .info p:nth-of-type(1) {
 	color: #65c8fb;
 	font-size: 16px;
@@ -28,6 +29,7 @@
 	overflow: hidden;
 	border-radius: 50%;
 	float: left;
+	margin-top: 10px;
 }
 .img img {
 	width: 100%;
@@ -38,9 +40,6 @@
 .info-red {
 	color: #f6804d;
 	font-size: 12px;
-}
-.info span {
-	margin-right: 10px;
 }
 .info-1 {
 	width: calc(100% - 160px);
@@ -72,7 +71,17 @@
 ._p_con_right {
 	min-height: 615px;
 }
+.info .info-3 {
+	display: inline-block;
+	width: calc(100% - 70px);
+	color: #999;
+	overflow: hidden;
+
+}
 @media screen and (max-width: 736px) {
+	.info .border-red {
+		margin-top: -12px;
+	}
 	body {
 		background: #fff;
 	}

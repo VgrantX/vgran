@@ -173,9 +173,7 @@
 	height: 35px;
 	padding: 5px 7px;
 }
-._p ._p_icon img {
-	width: 17px;
-}
+
 ._p_con_left ._p ._p_info {
 	width: calc(100% - 100px);
 	padding-top: 10px;
@@ -217,7 +215,7 @@
 	display: none;
 }
 .personal:hover ._p_add_img {
-	display: block;
+	display: inline-block;
 }
 .personal:hover .zi ._p_add_img {
 	margin-top: 5px;
@@ -338,7 +336,16 @@
 .header-top-nav {
 	margin-left: 30px;
 }
+body {
+	min-width: 1300px;
+}
+.s-rukou {
+	left: 80px;
+}
 @media screen and (max-width: 736px) {
+	body {
+	min-width: 100%;
+	}
 	.info-1 {
 		padding-right: 10px;
 	}
@@ -415,7 +422,7 @@
 	._p_con {
 		width: 100%;
 		margin: 0px;
-		padding: 0 5px;
+		padding: 0;
 	}
 	.personal:hover {
 	background: #ffffff;

@@ -18,7 +18,7 @@
 .invite-gray  span {
 	color: #333;
 }
-.info p:nth-of-type(1) {
+.info p:nth-of-type(1) a {
 	color: #65c8fb;
 	font-size: 16px;
 }
@@ -85,6 +85,9 @@
 .shanchu img {
 	width: 12px;
 }
+.info p .span1 {
+	color: #999;
+}
 @media screen and (max-width: 736px) {
 	._p_title {
 		padding-left: 10px;
@@ -104,9 +107,9 @@
 	.invite {
 		font-size: 12px;
 	}
-	.info:nth-of-type(2) span:nth-of-type(1) {
-		width: calc(100% - 80px);
+	.info p .span1 {
 		display: inline-block;
+		width: 100%;
 	}
 	.info {
 		margin-top: 0;

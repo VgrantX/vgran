@@ -190,7 +190,7 @@
 	display: none;
 }
 .personal:hover ._p_add_img {
-	display: block;
+	display: inline-block;
 }
 .personal:hover .zi ._p_add_img {
 	margin-top: 5px;
