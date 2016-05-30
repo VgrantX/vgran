@@ -58,6 +58,9 @@
 	color: #f6804d;
 	font-size: 12px;
 }
+.info-red a {
+	color: #f6804d;
+}
 .info span {
 	margin-right: 20px;
 }

@@ -1,0 +1,80 @@
+._p_con_right {
+	min-height: 735px;
+}
+.password {
+	background: url("../../images/login/8.png") no-repeat center right 10px;
+}
+.password-box {
+	width: 80%;
+	max-width: 612px;
+	height: 420px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.control-label span {
+	color: #ff0000;
+}
+.title {
+	padding-top: 54px;
+}
+.tit_right {
+	text-align: right;
+	width: calc(100% - 100px);
+	display: inline-block;
+	font-size: 14px;
+}
+form{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.time_date {
+	color: #999;
+	font-size: 14px;
+}
+.btn-default {
+	width: 175px;
+	height: 35px;
+	border: none;
+	background: #f26c4f;
+	color: #ffffff;
+	border-radius: 0;
+	border-radius: 5px;
+}
+.btn-default:hover {
+	border: none;
+	border-radius: 5px;
+	background: #f26c4f;
+	color: #ffffff;
+}
+.btn-dis:hover {
+	border: 1px solid #f26c4f;
+	background: none;
+	color: #f26c4f;
+}
+.btn-dis {
+	border: 1px solid #f26c4f;
+	background: none;
+	color: #f26c4f;
+}
+@media screen and (max-width: 736px) {
+	._p_title,.password-box {
+		background: #ffffff;
+	}
+	.App-footer {
+		margin-top: 0;
+	}
+	.password-box {
+		width: 100%;
+	}
+	form {
+		width: 100%;
+	}
+	.password-box {
+		margin-top: 0;
+	}
+	.title {
+		margin-top: 0;
+		padding-top: 10px;
+	}
+}
