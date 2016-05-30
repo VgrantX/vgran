@@ -1,0 +1,285 @@
+._p_invite_n {
+	text-align: center;
+	padding-top: 150px;
+	color: #999999;
+	width: 100%;
+}
+._p_con_right {
+	min-height: 615px;
+}
+._p_tit_r {
+	text-align: right;
+	font-size: 14px;
+	color: #999999;
+	display: inline-block;
+	width: calc(100% - 80px);
+}
+.invite {
+	display: inline-block;
+	padding: 10px 0;
+	border: 1px solid #fdd4d4;
+	border-radius: 2px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.Features {
+	float: left;
+}
+.qiye-img {
+	width: 70px;
+	height: 70px;
+	float: left;
+	overflow: hidden;
+}
+
+.info-1 {
+	color: #999;
+	font-size: 14px;
+}
+.info-1 span {
+	color: #333;
+}
+.qiye-img img {
+	width: 100%;
+}
+.company-top {
+	width: 100%;
+	display: inline-block;
+}
+.qiye-info .blue {
+	font-size: 18px;
+	color: #29abe2;
+	background: none;
+}
+.qiye-info .blue a {
+	color: #29abe2;
+}
+.info-red {
+	color: #ff3e03;
+}
+.invite-t .info-con {
+	color: #999999;
+	font-size: 14px;
+}
+.invite-b {
+	color: #999999;
+	font-size: 14px;
+	width: 100%;
+	overflow: hidden;
+}
+.invite-b p {
+	/*width: 100%;*/
+	white-space:nowrap;/* 不换行 */
+    overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow:ellipsis;
+
+}
+.Features b {
+	font-weight: normal;
+	margin-right: 10px;
+}
+.Features b a {
+	color: #666;
+}
+.invite-b b {
+	font-weight: normal;
+	font-size: 16px;
+	color: #333333;
+}
+.invite-box {
+	width: 100%;
+
+	display: inline-block;
+}
+.invite-t p {
+	font-size: 14px;
+}
+._p_collect .invite-t p {
+	margin-top: 5px;
+}
+.Features b,.Features span {
+	color: #666;
+	font-size: 14px;
+}
+.Features img {
+	margin-right: 2px;
+	width: 15px;
+	opacity: 0.8;
+}
+.Features .shanchu {
+	width: 13px;
+	opacity: 0.5;
+}
+.Features b {
+	margin-left: 0;
+}
+.btn {
+	margin-left: calc(50% - 140px);
+	display: inline-block;
+	margin-top: 40px;
+	background: #fe8369;
+	color: #ffffff;
+
+}
+.btn:hover {
+	color: #ffffff;
+}
+.shenglue {
+	white-space:nowrap;/* 不换行 */
+    overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow:ellipsis;
+
+}
+.collect-company .qiye-info p,.collect-company .qiye-info .font-gray,.collect-company .Features {
+	margin-top: 0px;
+}
+.display-block {
+	display: inline-block;
+}
+.display-none {
+	display: none;
+}
+.Collect_btn {
+	display: inline-block;
+	width: 100%;
+}
+/**/
+.qiye-info-r {
+	float: right;
+}
+.qiye-info-r span {
+	padding-left: 10px;
+}
+.add-jobs {
+	padding: 15px;
+	color: #fff;
+	background: #f5989d;
+	border-radius: 5px;
+	padding: 6px 10px;
+	float: right;
+	font-size: 14px;
+	line-height: 1.2;
+}
+.add-jobs img {
+	width: 15px;
+	margin-right: 10px;
+	float: left;
+}
+.add-jobs a {
+	color: #fff;
+}
+.info-2 {
+	margin-top: 15px;
+}
+._p_title {
+	line-height: 1.8;
+}
+.info-h2 {
+	font-size: 14px;
+	margin: 15px 0;
+}
+.content-1 {
+	padding: 0 20px;
+}
+form {
+	padding: 0;
+}
+.form-bottom {
+	width: 12%;
+}
+.box-border {
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	padding: 20px;
+}
+.box-border span {
+	margin-right: 20px;
+	margin-bottom: 15px;
+	display: inline-block;
+}
+.box-border span input {
+	margin-right: 10px;
+}
+/*team*/
+.info-3 span:nth-of-type(1) {
+	width: 40%;
+	display: inline-block;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.team-form  form{
+	width: 90%;
+	max-width: 600px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.team-form .btn {
+	margin-left: 0;
+	width: 100%;
+	border: none;
+}
+.team-form .btn:hover {
+	background: #fe8369;
+	color: #ffffff;
+}
+.team-form .btn-bor {
+	background: none;
+	border: 1px solid #fe8369;
+	color: #fe8369;
+}
+.team-form .btn-bor:hover {
+	background: none;
+	border: 1px solid #fe8369;
+	color: #fe8369;
+}
+.team-form .control-label span {
+	color: #ff0000;
+}
+@media screen and (max-width: 736px) {
+	.team-form .btn-bor,.team-form .btn {
+		margin-top: 10px;
+	}
+	.team-form form {
+		width: 100%;
+		min-width: 100%;
+		margin-top: 0;
+	}
+	.form-bottom {
+		width: 100%;
+	}
+	.info-2 {
+		padding-left: 15px;
+		display: none;
+	}
+	.invite-box {
+		margin-top: 0;
+	}
+	.invite-t p {
+		margin-top: 0;
+	}
+	.ReturnPage {
+		display: none;
+	}
+	body {
+		background: #ffffff;
+	}
+	._p_con_right {
+		min-height: 400px;
+	}
+	.btn {
+		margin: 0 auto;
+		float: right;
+		margin-top: -35px;
+	}
+	._p_title {
+		background: #ffffff;
+	}
+	.invite-box {
+		padding: 0 10px;
+	}
+	.App-footer {
+		margin-top: 20px;
+	}
+}
+

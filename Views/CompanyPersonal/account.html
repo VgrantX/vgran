@@ -32,12 +32,15 @@
 	<link rel="stylesheet" href="../../public/css/comment.css">
 	<link rel="stylesheet" href="../../public/css/head.css">
 	<link rel="stylesheet" href="../../public/css/index.css">
-	<link rel="stylesheet" href="../../public/css/company.css">
-	<link rel="stylesheet" href="../../public/css/personal/index.css">
-	<link rel="stylesheet" href="../../public/css/personal/invite.css">
-	<link rel="stylesheet" href="../../public/css/personal/see.css">
+	<link rel="stylesheet" href="../../public/css/cattle/cattle.css">
+	<link rel="stylesheet" href="../../public/css/search.css">
+	<link rel="stylesheet" href="../../public/css/companyPersonal/index.css">
+	<link rel="stylesheet" href="../../public/css/companyPersonal/account.css">
+
+	
 </head>
 <body>
+
 <div class="tuichu-box">
 	<div class="tuichu-2">
 		<p>确认退出？</p>
@@ -51,6 +54,8 @@
 		<li class="discard-t">取消</li>
 	</ul>
 </div>
+
+<div class="loading" aria-label="Loading" role="img" tabindex="-1"></div>
 <div class="HeaderTop"></div>
 <div class="HeaderTopFixed">
 	<div class="header-top">
@@ -108,7 +113,6 @@
 		</ul>
 		<ul class="MainLogin">
 			<li><a href="../Personal/app_index.html">个人中心</a></li>
-			
 		</ul>
 	</div>
 </div>
@@ -165,11 +169,12 @@
 					京ICP备16003476号
 				</p>
 			</div>
+	
 			<!-- 右侧内容 -->
 			<div class="content">
 				<div class="ReturnPage">
 					<a><b class="ReturnPage-left"></b></a>
-					<div class="_p_right">人才会员中心</div>
+					<div class="_p_right">企业会员中心</div>
 				</div>
 				<div class="_p_con">
 					<div class="_p_con_left">
@@ -177,9 +182,9 @@
 							<!-- 找工作 -->
 							<div class="personal _p">
 								<a href="jobs.html">
-								<div class="_p_icon red">
-									<img src="../../public/images/personal/SUITCASE.png" alt="">
-									<img  class="_p_add_img" src="../../public/images/personal/SUITCASE2.png" alt="">
+								<div class="_p_icon darkblue">
+									<img src="../../public/images/companyPersonal/male-w.png" alt="">
+									<img  class="_p_add_img" src="../../public/images/companyPersonal/male.png" alt="">
 								</div>
 								<div class="_p_info">
 									找工作
@@ -188,93 +193,116 @@
 							</div>
 						</div>
 						<div class="p-box">
-							<!-- 简历管理 -->
+							<!-- 完善基本资料 -->
 							<div class="personal _p _P_m_t">
-								<a href="resume.html">
-								<div class="_p_icon blue">
-									<img src="../../public/images/personal/DOCUMENTS.png" alt="">
-									<img  class="_p_add_img" src="../../public/images/personal/DOCUMENTS2.png" alt="">
-								</div>
-								<div class="_p_info">
-									简历管理
-								</div>
+								<a href="add_resume.html">
+									<div class="_p_icon blue">
+										<img src="../../public/images/personal/DOCUMENTS.png" alt="">
+										<img  class="_p_add_img" src="../../public/images/personal/DOCUMENTS2.png" alt="">
+									</div>
+									<div class="_p_info">
+										完善基本资料
+									</div>
 								</a>
 							</div>
-							<!-- 基本信息 -->
+							<!-- 职位管理 -->
 							<div class="personal _p">
-								<a href="infomation.html">
+								<a href="position1.html">
 								<div class="_p_icon greet">
-									<img src="../../public/images/personal/BOOK 1.png" alt="">
-									<img class="_p_add_img" src="../../public/images/personal/BOOK 2.png" alt="">
+									<img src="../../public/images/companyPersonal/tie.png" alt="">
+									<img class="_p_add_img" src="../../public/images/companyPersonal/tie2.png" alt="">
 								</div>
 								<div class="_p_info">
-									基本信息
+									职位管理
 								</div>
 								</a>
 							</div>
-							<!-- 面试邀请 -->
+							<!-- 团队管理 -->
 							<div class="personal _p">
-								<a href="invite.html">
+								<a href="team1.html">
 								<div class="_p_icon cheng">
-									<img src="../../public/images/personal/SPEECH BUBBLES.png" alt="">
-									<img class="_p_add_img" src="../../public/images/personal/SPEECH BUBBLES2.png" alt="">
+									<img src="../../public/images/companyPersonal/group.png" alt="">
+									<img class="_p_add_img" src="../../public/images/companyPersonal/group2.png" alt="">
 								</div>
 								<div class="_p_info">
-									面试邀请
+									团队管理
 								</div>
 								</a>
 							</div>
-						
-							<!-- 谁看过我的简历 -->
-							<div class="personal _p">
-								<a href="browse-company.html">
+							<!-- 账户管理 -->
+							<div class="personal _p _p_active">
+								<a href="account.html">
 								<div class="_p_icon zi">
-									<img src="../../public/images/personal/VIEW.png" alt="">
-									<img class="_p_add_img" src="../../public/images/personal/VIEW2.png" alt="">
+									<img src="../../public/images/companyPersonal/home.png" alt="">
+									<img class="_p_add_img" src="../../public/images/companyPersonal/home2.png" alt="">
 								</div>
 								<div class="_p_info">
-									谁看过我的简历
+									账户管理
 								</div>
 								</a>
 							</div>
 						</div>
 						<div class="p-box">
-							<!-- 我浏览过的职位 -->
-							<div class="personal _p _P_m_t  _p_active">
-								<a href="see.html">
-								<div class="_p_icon zise">
-									<img src="../../public/images/personal/CALENDAR _ ADD.png" alt="">
-									<img class="_p_add_img" src="../../public/images/personal/CALENDAR _ ADD2.png" alt="">
+							<!-- 应聘简历 -->
+							<div class="personal _p _P_m_t">
+								<a href="apply.html">
+								<div class="_p_icon blue">
+									<img src="../../public/images/companyPersonal/files.png" alt="">
+									<img class="_p_add_img" src="../../public/images/companyPersonal/files2.png" alt="">
 								</div>
 								<div class="_p_info">
-									我浏览过的职位
+									应聘简历
 								</div>
 								</a>
 							</div>
-							<!-- 申请的职位 -->
+							<!-- 应聘简历 -->
 							<div class="personal _p">
-								<a href="application.html">
+								<a href="invitation.html">
 								<div class="_p_icon red-gray">
-									<img src="../../public/images/personal/BELL.png" alt="">
-									<img class="_p_add_img" src="../../public/images/personal/BELL2.png" alt="">
+									<img src="../../public/images/companyPersonal/DOCUMENT _ OK.png" alt="">
+									<img class="_p_add_img" src="../../public/images/companyPersonal/DOCUMENT _ OK2.png" alt="">
 								</div>
 								<div class="_p_info">
-									申请的职位
+									已邀请的简历
 								</div>
 								</a>
 							</div>
-						<!-- 收藏记录 -->
-						<div class="personal _p">
-							<a href="collect-job.html">
-							<div class="_p_icon blue-dark">
-								<img src="../../public/images/personal/STAR.png" alt="">
-								<img class="_p_add_img" src="../../public/images/personal/STAR2.png" alt="">
+							<!-- 我浏览过的职位 -->
+							<div class="personal _p">
+								<a href="browse.html">
+								<div class="_p_icon darkblue">
+									<img src="../../public/images/personal/VIEW.png" alt="">
+									<img class="_p_add_img"  src="../../public/images/personal/VIEW2.png" alt="">
+								</div>
+								<div class="_p_info">
+									我浏览过的简历
+								</div>
+								</a>
 							</div>
-							<div class="_p_info">
-								收藏记录
+							<!-- 被浏览记录 -->
+							<div class="personal _p">
+								<a href="Be_viewed.html">
+								<div class="_p_icon linekblue">
+									<img src="../../public/images/personal/VIEW.png" alt="">
+									<img class="_p_add_img" src="../../public/images/personal/VIEW2.png" alt="">
+								</div>
+								<div class="_p_info">
+									被浏览记录
+								</div>
+								</a>
 							</div>
-							</a>
-						</div>
+							<!-- 收藏的人才 -->
+							<div class="personal _p">
+								<a href="collect_person.html">
+								<div class="_p_icon darkzi">
+									<img src="../../public/images/personal/STAR.png" alt="">
+									<img class="_p_add_img" src="../../public/images/personal/STAR2.png" alt="">
+								</div>
+								<div class="_p_info">
+									收藏的人才
+								</div>
+								</a>
+							</div>
 						</div>
 						<div class="p-box">
 							<!-- 更改密码 -->
@@ -290,13 +318,13 @@
 								</a>
 							</div>
 							<!-- 退出登录 -->
-							<div class="personal _p tuichu">
+							<div class="personal _p ">
 								<a>
 								<div class="_p_icon zise-fik">
 									<img src="../../public/images/personal/POWER.png" alt="">
 									<img class="_p_add_img" src="../../public/images/personal/POWER2.png" alt="">
 								</div>
-								<div class="_p_info">
+								<div class="_p_info tuichu">
 									退出登录
 								</div>
 								</a>
@@ -305,150 +333,32 @@
 					</div>
 					<div class="_p_con_right">
 						<div class="_p_title">
-							我浏览过的职位
-							<div class="_p_tit_r">共有<b><span class="sum">0</span></b>条结果</div>
-						</div>
-						<div class="_p_invite_n">
-							<img src="../../public/images/personal/FOLDER _ ADD.png" alt="">
-							<p>您还没有浏览过职位</p>
+							账户管理
 						</div>
 						<div class="invite-box">
-						<div class="invite row margin-no">
-								<div class="_p_ji_gray"><span>过期</span></div>
-								<div class="col-md-9">
-									<div class="invite-t">
-										<div class="company-top">
-											<div class="qiye-img">
-												<img src="../../public/images/personal/5.png" alt="">
-											</div>
-											<div class="qiye-info">
-												<div class="col-md-6">
-													<p class="shenglue">
-														<span class="blue"><a href="../Jobs/index.html">产品经理</a></span>
-														<span class="info-red">￥15-20K</span>
-														<span class="info-con">5小时前</span>
-													</p>
-													<p class="shenglue">北京  |  本科  |  经验3-5年</p>
-												</div>
-												<div class="col-md-6">
-													<p class="shenglue"><a href="../Company/detail.html">北京微科锐科技有限公司</a></p>
-													<p class="shenglue info-con">互联网（A轮）</p>
-												</div>
-											</div>
-										</div>
+							<div class="account">
+								<div class="col-md-6">
+									<div class="img">
+										<img src="" alt="">
 									</div>
-									<div class="invite-b">
-											<b>推荐理由：</b>
-											<span>
-											具有3年产品经理工作经验，具有3年产品经理工作经验具有3年产品经理工作经验具有3年产品经理工作经验具有3年产品经理工作经
-											</span>
+									<div class="l-info">
+										<p>
+											会员级别：<span class="l-info-he"><img src="../../public/images/companyPersonal/diamond.png" alt="">VIP2合同</span>
+										</p>
+										<p>
+											安全等级：<span class="grade"><span  style="width: 50%;"></span></span>中
+										</p>
 									</div>
 								</div>
-								<div class="col-md-3 padding-no">
-									<div class="Features">
-											<b>
-												<img  class="add-info-img" src="../../public/images/header/STAR2.png" alt="">
-												<img  class="remove-info-img" src="../../public/images/header/STAR.png" alt="">
-												收藏
-											</b>
-											<b class="share">
-												<img class="share-img" src="../../public/images/header/fenxaing.png" alt="">分享
-												<div class="info">
-													<p>
-														分享
-														<img class="CLOSE" src="../../public/images/header/CLOSE.png" alt="">
-													</p>
-													<div>
-														<a href="">
-															<img src="../../public/images/header/wexin.png" alt="">
-															<span>微信</span>
-														</a>
-														<a href="">
-															<img src="../../public/images/header/weibo.png" alt="">
-															<span>微博</span>
-														</a>
-														<a href="">
-															<img src="../../public/images/header/pengyouquan.png" alt="">
-															<span>朋友圈</span>
-														</a>
-													</div>
-												</div>
-											</b>
-										</div>
-										<div class="shenqing">
-											<button class="btn btn-gray">申请职位</button>
-										</div>
+								<div class="col-md-5 time">
+									<p>上次登录：2016-05-25  18：02：54</p>
+									<p class="jifen">账户积分：<span>4689</span> 个</p>
 								</div>
+								<div class="col-md-1 accout-btn"><span>充值</span></div>
 							</div>
-							<div class="invite row margin-no">
-								<div class="_p_ji"><span>急</span></div>
-								<div class="col-md-9">
-									<div class="invite-t">
-										<div class="company-top">
-											<div class="qiye-img">
-												<img src="../../public/images/personal/5.png" alt="">
-											</div>
-											<div class="qiye-info">
-												<div class="col-md-6">
-													<p class="shenglue">
-														<span class="blue"><a href="../Jobs/index.html">产品经理</a></span>
-														<span class="info-red">￥15-20K</span>
-														<span class="info-con">5小时前</span>
-													</p>
-													<p class="shenglue">北京  |  本科  |  经验3-5年</p>
-												</div>
-												<div class="col-md-6">
-													<p class="shenglue"><a href="../Company/detail.html">北京微科锐科技有限公司</a></p>
-													<p class="shenglue info-con">互联网（A轮）</p>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="invite-b">
-											<b>推荐理由：</b>
-											<span>
-											具有3年产品经理工作经验，具有3年产品经理工作经验具有3年产品经理工作经验具有3年产品经理工作经验具有3年产品经理工作经
-											</span>
-									</div>
-								</div>
-								<div class="col-md-3 padding-no">
-									<div class="Features">
-											<b>
-												<img  class="add-info-img" src="../../public/images/header/STAR2.png" alt="">
-												<img  class="remove-info-img" src="../../public/images/header/STAR.png" alt="">
-												收藏
-											</b>
-											<b class="share">
-												<img class="share-img" src="../../public/images/header/fenxaing.png" alt="">分享
-												<div class="info">
-													<p>
-														分享
-														<img class="CLOSE" src="../../public/images/header/CLOSE.png" alt="">
-													</p>
-													<div>
-														<a href="">
-															<img src="../../public/images/header/wexin.png" alt="">
-															<span>微信</span>
-														</a>
-														<a href="">
-															<img src="../../public/images/header/weibo.png" alt="">
-															<span>微博</span>
-														</a>
-														<a href="">
-															<img src="../../public/images/header/pengyouquan.png" alt="">
-															<span>朋友圈</span>
-														</a>
-													</div>
-												</div>
-											</b>
-										</div>
-								<div class="shenqing">
-									<button class="btn">申请职位</button>
-								</div>
-							</div>
-							</div>
-						</div>	
+						</div>
 					</div>
+					<!-- 右侧内容end -->
 				</div>
 					<!-- 底部信息 -->
 				<div class="footer-box">
@@ -517,10 +427,12 @@
 </div>
 </body>
 	<script src="../../public/js/jquery-1.11.2.min.js"></script>
+	<script src="../../public/js/cropper.js"></script>
+	<script src="../../public/js/sitelogo.js"></script>
+	<script src="../../public/js/bootstrap.min.js"></script>
 	<script src="../../public/js/jquery.elipsis.js"></script>
 	<script src="../../public/js/OwlCarousel.js"></script>
-	<script src="../../public/js/main.js"></script>
-	<script src="../../public/js/invite.js"></script>
+	<script src="../../public/js/companyPersonal.js"></script>
 
 	</script>
 </html>

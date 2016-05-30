@@ -1,0 +1,162 @@
+.account {
+	background: #e8e8e8;
+	border: 1px solid #e0e0e0;
+	padding: 15px 25px;
+	display: inline-block;
+	width: 100%;
+}
+.img {
+	width: 150px;
+	height: 70px;
+	border: 2px solid #333;
+	overflow: hidden;
+	float:left;
+}
+.img img {
+	width: 100%;
+}
+.l-info {
+	width: calc(100% - 160px);
+	float: left;
+	padding-left: 10px;
+}
+.account p {
+	font-size: 14px;
+	margin-top: 10px;
+}
+.l-info img {
+	width: 20px;
+}
+.l-info-he {
+	background: #fdbe37;
+	border-radius: 15px;
+	padding: 5px 20px;
+	color: #fff;
+}
+.grade {
+	display: inline-block;
+	background: #f0f0f0;
+	border-radius: 15px;
+	width: 120px;
+	height: 15px;
+	position: relative;
+	margin-right: 5px;
+}
+.grade span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	height: 15px;
+	background: #42d38b;
+	border-radius: 15px;
+}
+.account .jifen {
+	font-size: 16px;
+	margin-top: 0;
+}
+.jifen span {
+	font-size: 28px;
+	color: #ff8244;
+}
+.accout-btn {
+	text-align: right;
+}
+.accout-btn span {
+	display: inline-block;
+	padding: 5px 7px;
+	border-radius: 5px;
+	background: #ff8244;
+	color: #fff;
+	margin-top: 15px;
+}
+
+@media screen and (max-width: 736px) {
+	._p_con_right {
+		min-height: 400px;
+	}
+	.ReturnPage {
+		display: none;
+	}
+	.img {
+		width: 120px;
+	}
+	.account {
+		padding: 10px 0px;
+		margin-bottom: 10px;
+	}
+	.grade {
+		width: 90px;
+	}
+	.time {
+		display: inline-block;
+		width: 100%;
+	}
+	.l-info {
+		width: calc(100% - 120px);
+	}
+	.account p {
+		font-size: 12px;
+	}
+	.l-info-he {
+		padding: 5px 10px;
+	}
+	.l-info-he img {
+		width: 15px;
+	}
+	._p_con {
+		padding: 0;
+	}
+	.account .jifen {
+		font-size: 12px;
+	}
+	.jifen span {
+		font-size: 20px;
+	}
+	.accout-btn span {
+		margin-top: 0;
+	}
+	.accout-btn {
+		margin-top: -25px;
+	}
+	.invite-box {
+		margin-top: 0;
+	}
+	._p_title {
+		background: #fff;
+	}
+	body {
+		background: #fff;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

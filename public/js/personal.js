@@ -27,4 +27,5 @@ $(function(){
     $('.discard-t').click(function(){
       $('.tuichu-box').css({display:'none'});
     })
+    
 })
