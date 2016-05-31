@@ -109,6 +109,7 @@
 	}
 	.invite {
 		font-size: 12px;
+		margin-bottom: -1px;
 	}
 	.info p .span1 {
 		display: inline-block;

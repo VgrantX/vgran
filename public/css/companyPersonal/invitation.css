@@ -113,6 +113,7 @@
 	}
 	.invite {
 		font-size: 12px;
+		margin-bottom: -1px;
 	}
 	.info:nth-of-type(2) span:nth-of-type(1) {
 		width: calc(100% - 80px);

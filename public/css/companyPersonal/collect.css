@@ -109,6 +109,7 @@
 	.invite {
 		font-size: 12px;
 		padding: 10px 5px;
+		margin-bottom: -6px;
 	}
 	.info {
 		margin-top: 0;
