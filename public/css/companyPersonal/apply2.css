@@ -58,6 +58,13 @@ form{
 	color: #f26c4f;
 }
 @media screen and (max-width: 736px) {
+	form {
+		margin-top: 0;
+	}
+	.btn {
+		width: 100%;
+		margin-top: 10px;
+	}
 	._p_title,.password-box {
 		background: #ffffff;
 	}
