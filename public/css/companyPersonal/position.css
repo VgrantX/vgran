@@ -238,6 +238,9 @@ form {
 }
 
 @media screen and (max-width: 736px) {
+	.add-jobs {
+		margin-right: 15px;
+	}
 	.team-form .btn-bor,.team-form .btn {
 		margin-top: 10px;
 	}

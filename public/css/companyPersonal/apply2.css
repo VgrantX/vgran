@@ -58,6 +58,7 @@ form{
 	color: #f26c4f;
 }
 @media screen and (max-width: 736px) {
+
 	form {
 		margin-top: 0;
 	}

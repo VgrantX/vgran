@@ -89,6 +89,12 @@
 	color: #999;
 }
 @media screen and (max-width: 736px) {
+	body {
+		background: #fff;
+	}
+		._p_con_right {
+		min-height: 400px;
+	}
 	._p_title {
 		padding-left: 10px;
 	}
