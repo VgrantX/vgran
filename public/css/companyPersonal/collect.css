@@ -68,6 +68,9 @@
 	padding: 5px;
 	border-radius: 5px;
 }
+.info .border-red a {
+	color: #fe8369;
+}
 ._p_con_right {
 	min-height: 615px;
 }

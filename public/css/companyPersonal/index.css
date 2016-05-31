@@ -74,7 +74,7 @@
 	height: 55px;
 	margin-left: 10px;
 	font-size: 18px;
-	width: calc(100% - 185px);
+	width: calc(100% - 165px);
 }
 .bianxie {
 	font-size: 14px;
@@ -441,6 +441,9 @@ body {
 	}
 	.personal:hover ._p_icon {
 		background: #ffffff;
+	}
+	._p_top_name p {
+		font-size: 14px;
 	}
 
 }
