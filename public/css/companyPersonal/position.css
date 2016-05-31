@@ -236,6 +236,7 @@ form {
 .team-form .control-label span {
 	color: #ff0000;
 }
+
 @media screen and (max-width: 736px) {
 	.team-form .btn-bor,.team-form .btn {
 		margin-top: 10px;
@@ -251,9 +252,6 @@ form {
 	.info-2 {
 		padding-left: 15px;
 		display: none;
-	}
-	.invite-box {
-		margin-top: 0;
 	}
 	.invite-t p {
 		margin-top: 0;
@@ -276,7 +274,11 @@ form {
 		background: #ffffff;
 	}
 	.invite-box {
-		padding: 0 10px;
+		padding: 0 15px;
+		margin-top: 0;
+	}
+	.invite-box .col-md-6 {
+		padding: 0;
 	}
 	.App-footer {
 		margin-top: 20px;

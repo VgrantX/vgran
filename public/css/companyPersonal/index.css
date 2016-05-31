@@ -354,6 +354,7 @@ body {
 	}
 	.tuichu-box ul {
 		display: inline-block;
+		left: 0;
 	}
 	.tuichu-box .tuichu-2 {
 		display: none;
@@ -425,7 +426,7 @@ body {
 		padding: 0;
 	}
 	.personal:hover {
-	background: #ffffff;
+		background: #ffffff;
 	}
 	.personal:hover a {
 		color: #999999;
@@ -445,7 +446,54 @@ body {
 	._p_top_name p {
 		font-size: 14px;
 	}
-
+	.personal:hover {
+		background: #fff;
+	}
+	.personal:hover a {
+		color: #333;
+	}
+	.personal:hover ._p_icon {
+		background: auto;
+	}
+	.personal:hover ._p_icon.darkblue {
+	background: #448ccb;
+	}
+	.personal:hover ._p_icon.linekblue {
+		background:#00bff3
+	}
+	.personal:hover ._p_icon.darkzi {
+		background: #4f51ae;
+	}
+	.personal:hover ._p_icon.red {
+	background: #f5989d;
+	}
+	.personal:hover ._p_icon.blue {
+		background: #6db2f9;
+	}
+	.personal:hover ._p_icon.greet {
+		background: #3cb878;
+	}
+	.personal:hover ._p_icon.cheng {
+		background: #ff8244;
+	}
+	.personal:hover ._p_icon.zi {
+		background: #aa84fe;
+	}
+	.personal:hover ._p_icon.zise {
+		background: #21b0e5;
+	}
+	.personal:hover ._p_icon.red-gray {
+		background: #856873;
+	}
+	.personal:hover ._p_icon.blue-dark {
+		background: #477ccb;
+	}
+	.personal:hover ._p_icon.yellow {
+		background: #c7b299;
+	}
+	.personal:hover ._p_icon.zise-fik {
+		background: #bd8cbf;
+	}
 }
 
 

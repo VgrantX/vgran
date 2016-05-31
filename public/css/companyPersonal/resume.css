@@ -189,6 +189,10 @@ form {
 	.display-block {
 		display: block;
 	}
+	.teding {
+		width: 100%;
+		text-align: left;
+	}
 }
 
 
