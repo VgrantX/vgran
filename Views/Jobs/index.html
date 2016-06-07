@@ -302,7 +302,7 @@
 											</div>
 									</div>
 									<p class="text-center">
-										<a href="../Consultant/detail.html">张小青</a>
+										<a class="have-name" href="../Consultant/detail.html">张小青</a>
 										<span>金牌顾问</span>
 									</p>
 									<p class="CompanyName text-center"><a href="../Company/detail.html">北京微科锐科技有限公司</a></p>
@@ -342,7 +342,7 @@
 									</div>
 									<!-- 申请职位 -->
 								<div class="WORK">
-									<a href="">申请职位</a>
+									<a>申请职位</a>
 								</div>
 								</div>
 							</div>
@@ -419,4 +419,17 @@
 	<script src="../../public/js/jquery.elipsis.js"></script>
 	<script src="../../public/js/OwlCarousel.js"></script>
 	<script src="../../public/js/main.js"></script>
+	<script>
+		var have_Name = $('.have-name').text();
+		if (have_Name == "") {
+			$('.WORK').click(function(){
+				alert("请在登录后申请");
+			})
+		}else{
+			$('.WORK').click(function(){
+				window.location.href = "../Personal/application.html";
+			})
+		}
+
+	</script>
 </html>
