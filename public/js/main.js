@@ -304,6 +304,10 @@ $(function(){
     $(".share-img").click(function(){
         $(this).next().css({display:'inline-block'})
     })
+     $(".share_span").click(function(){
+        $(this).next().css({display:'inline-block'})
+    })
+    
     $(".CLOSE").click(function(){
         $(this).parents(".info").css({display:'none'})
     })
