@@ -1,6 +1,10 @@
 ._p_tit_r {
 	width: calc(100% - 100px)
 }
+._p_tit_l {
+	font-size: 14px;
+	color: #999;
+}
 .invite {
 	position: relative;
 

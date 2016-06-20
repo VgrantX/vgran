@@ -308,7 +308,7 @@
 								<a class="active" href="browse-consultant.html">顾问</a>
 							</div>
 						</div>
-						
+						<p class="_p_tit_l">共<b><span class="sum-b">0</span></b>家公司</p>
 						<div class="_p_invite_n">
 							<img src="../../public/images/personal/FOLDER _ ADD.png" alt="">
 							<p>您还没有收藏顾问</p>
@@ -675,4 +675,13 @@
 	}
 }
 </style>
+<script>
+		var _sum = $('.invite').length;
+		if (_sum > 0) {
+			$('.sum-b').text(_sum);
+		}
+		else {
+			$('.sum-b').text(0);
+		}
+	</script>
 </html>

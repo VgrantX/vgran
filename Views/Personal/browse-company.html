@@ -304,11 +304,11 @@
 						<div class="_p_title">
 							谁看过我的简历
 							<div class="_p_tit_r collect-all">
-								
 								<a class="active" href="browse-company.html">企业</a>
 								<a href="browse-consultant.html">顾问</a>
 							</div>
 						</div>
+						<p class="_p_tit_l">共<b><span class="sum-b">0</span></b>家公司</p>
 						<div class="_p_invite_n">
 							<img src="../../public/images/personal/FOLDER _ ADD.png" alt="">
 							<p>您还没有收藏职位</p>
@@ -870,6 +870,13 @@
 	<script src="../../public/js/OwlCarousel.js"></script>
 	<script src="../../public/js/main.js"></script>
 	<script src="../../public/js/browse.js"></script>
-
+	<script>
+		var _sum = $('.invite').length;
+		if (_sum > 0) {
+			$('.sum-b').text(_sum);
+		}
+		else {
+			$('.sum-b').text(0);
+		}
 	</script>
 </html>
