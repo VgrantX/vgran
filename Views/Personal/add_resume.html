@@ -358,12 +358,97 @@
 								<div class="col-md-6">
 								  	<div class="form-group">
 										<label class="col-sm-offset-1 col-sm-3 control-label" for='addr'>期望从事职位</label>
-										<div class="col-sm-7">
-										<select class="form-control" id="" required>
-										<option value="请选择">请选择</option>
-										<option value="面议">面议</option>
-										<option value="面议">面议</option>
-										</select>
+										<div class="col-sm-7 thank-job">
+											<div  class="form-control thank-work">请选择</div>
+											<!-- 选择模块 -->
+											<div class="thank-work-con">
+												<!-- //////////模块标题 -->
+												<p>计算机网络</p>
+												<!-- 二级 -->
+												<ul>
+													<li>
+														<p class="thank-img">
+															<img class="thank-apper" src="../../public/images/header/add.png" alt="">
+															<img class="thank-dis" src="../../public/images/header/remove.png" alt="">
+															IT管理
+														</p>
+														<!-- 三级 -->
+														<ul class="thank-three">
+															<li class="thank-job-con">
+																IT管理－1
+															</li>
+															<li class="thank-job-con">
+																IT管理－1
+															</li>
+															<li class="thank-job-con">
+																IT管理－1
+															</li>
+														</ul>	
+													</li>
+												</ul>
+												<!-- ////////// -->
+												<p>计算机网络</p>
+												<!-- 二级 -->
+												<ul>
+													<li>
+														<p class="thank-img">
+															<img class="thank-apper" src="../../public/images/header/add.png" alt="">
+															<img class="thank-dis" src="../../public/images/header/remove.png" alt="">
+															IT管理
+														</p>
+														<!-- 三级 -->
+														<ul class="thank-three">
+															<li class="thank-job-con">
+																IT管理－1
+															</li>
+															<li class="thank-job-con">
+																IT管理－1
+															</li>
+															<li class="thank-job-con">
+																IT管理－1
+															</li>
+														</ul>	
+													</li>
+													<li>
+														<p class="thank-img">
+															<img class="thank-apper" src="../../public/images/header/add.png" alt="">
+															<img class="thank-dis" src="../../public/images/header/remove.png" alt="">
+															IT管理
+														</p>
+														<!-- 三级 -->
+														<ul class="thank-three">
+															<li class="thank-job-con">
+																IT管理－1
+															</li>
+															<li class="thank-job-con">
+																IT管理－1
+															</li>
+															<li class="thank-job-con">
+																IT管理－1
+															</li>
+														</ul>	
+													</li>
+													<li>
+														<p class="thank-img">
+															<img class="thank-apper" src="../../public/images/header/add.png" alt="">
+															<img class="thank-dis" src="../../public/images/header/remove.png" alt="">
+															IT管理
+														</p>
+														<!-- 三级 -->
+														<ul class="thank-three">
+															<li class="thank-job-con">
+																IT管理－1
+															</li>
+															<li class="thank-job-con">
+																IT管理－1
+															</li>
+															<li class="thank-job-con">
+																IT管理－1
+															</li>
+														</ul>	
+													</li>
+												</ul>
+											</div>	
 										</div>
 									</div>
 									<div class="form-group">
@@ -533,5 +618,41 @@
 		        window.open("file:///Users/Alina/Desktop/vgran/Views/Personal/resume.html");
 	        }
 		})
+
+		var thank_f_2 = true;
+		$('.thank-work').click(function(){
+			if (thank_f_2) {
+				$(this).next().show();
+				thank_f_2 = false;
+			}
+			else {
+				$(this).next().hide();
+				thank_f_2 = true;
+			}
+		})
+		var thank_f = true;
+		$('.thank-img').click(function(){
+			if (thank_f) {
+				$(this).find('.thank-apper').hide();
+				$(this).find('.thank-dis').show();
+				$(this).next().show();
+				thank_f = false;
+			}
+			else {
+				$(this).find('.thank-apper').show();
+				$(this).find('.thank-dis').hide();
+				$(this).next().hide();
+				thank_f = true;
+			}
+		})
+		$('.thank-job-con').click(function(){
+			$('.thank-three').hide();
+			$('.thank-apper').show();
+			$('.thank-dis').hide();
+			$('.thank-work-con').hide();
+			var thank_job_con = $(this).text();
+			$('.thank-work').text(thank_job_con);
+		})
+
 	</script>
 </html>

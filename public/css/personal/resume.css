@@ -166,6 +166,42 @@ form {
 .bianxie {
 	display: none;
 }
+/*期望之夜模块*/
+.thank-job {
+	cursor: pointer;
+	position: relative;
+}
+.thank-three {
+	display: none;
+}
+.thank-work-con {
+	cursor: pointer;
+	display: none;
+	position: absolute;
+	background: #fff;
+	z-index: 99;
+	border: 1px solid #ccc;
+	width: calc(100% - 20px);
+	padding: 5px 10px;
+	color: #666;
+}
+.thank-dis {
+	display: none;
+}
+.thank-img{
+	padding: 5px 0;
+}
+.thank-job-con {
+	padding: 5px 20px;
+}
+.thank-job-con:hover {
+	background: #ccc;
+}
+.thank-three {
+	font-size: 14px;
+	color: #666;
+	padding: 5px 0;
+}
 @media screen and (max-width: 736px) {
 	.bianxie {
 	display: block;
