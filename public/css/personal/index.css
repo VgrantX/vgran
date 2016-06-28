@@ -1,3 +1,7 @@
+
+._p_top_img img {
+    width:100%;
+}
 .Login .icon-arrow-left {
 	opacity: 1 !important;
 	float: right;
@@ -41,6 +45,7 @@
 	height: 55px;
 	float: left;
 	border: 2px solid #333333;
+	overflow: hidden;
 }
 ._p_top_name {
 	float: left;
